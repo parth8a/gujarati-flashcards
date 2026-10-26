@@ -59,6 +59,8 @@ export interface Daily {
   day: string
   /** Ids of new cards first graded on `day` (counts against newPerDay). */
   newIds: string[]
+  /** Extra new cards allowed on `day` on top of newPerDay ("+5 more"). */
+  extra?: number
 }
 
 export interface AppData {

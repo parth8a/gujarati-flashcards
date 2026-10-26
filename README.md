@@ -61,6 +61,9 @@ because it's stored separately from the app files.
   it (the button shows when: `1d`, `6d`, …).
 - On a keyboard: <kbd>Space</kbd> shows the answer, <kbd>1</kbd> = Fail, <kbd>2</kbd> /
   <kbd>Space</kbd> = Pass, <kbd>t</kbd> toggles Devanagari, <kbd>Esc</kbd> exits.
+- **+ 5 more new cards**: once today's new cards are done, this button appears on the Study
+  screen and at the end of a session. It adds 5 new cards **for today only**; your daily
+  setting stays the same. Press it as often as you like. New cards always come in deck order.
 - **More → New cards per day** (default 10) and **Theme** (Auto follows the system's dark
   mode).
 
@@ -197,6 +200,7 @@ It runs as part of `npm run build`, so a broken deck never deploys. Current resu
   lapse, and relearns the card in the same session. A relearned card then starts again at 1 day.
 - **Session order:** due reviews first (oldest first), then new cards in deck order.
 - **New cards per day** counts cards graded for the first time that day, including failed ones.
+  Extra cards from *+ 5 more* are added on top for that day only.
 - **Flagged cards are suspended** from reviews (see §5).
 - **Cognates** are Hindi-recognisable nouns, adjectives, names and English loanwords.
   Function words (હા, ના, કોઈ…) and all verb forms are taught as new items even when they look

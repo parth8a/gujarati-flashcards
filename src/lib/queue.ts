@@ -23,7 +23,8 @@ export function dueCards(cards: Card[], data: AppData, day: string): Card[] {
 
 /** Unseen cards available today, in deck order, within the daily limit. */
 export function newCards(cards: Card[], data: AppData, day: string): Card[] {
-  const left = Math.max(0, data.settings.newPerDay - dailyFor(data, day).newIds.length)
+  const daily = dailyFor(data, day)
+  const left = Math.max(0, data.settings.newPerDay + (daily.extra ?? 0) - daily.newIds.length)
   return cards.filter(active(data)).filter((c) => !data.progress[c.id]).slice(0, left)
 }
 

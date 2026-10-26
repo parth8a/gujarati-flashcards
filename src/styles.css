@@ -536,6 +536,21 @@ mark {
   text-align: center;
 }
 
+.finished-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 360px;
+  margin-top: 0.75rem;
+}
+
+.done-msg {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
 .big-emoji {
   font-size: 3.5rem;
   margin: 0;

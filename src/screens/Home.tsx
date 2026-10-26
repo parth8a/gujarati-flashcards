@@ -2,13 +2,14 @@ import { buildDeck } from '../lib/deck'
 import { today } from '../lib/day'
 import { counts } from '../lib/queue'
 import { go } from '../lib/route'
-import { useAppData } from '../lib/store'
+import { addExtraNew, EXTRA_NEW_BATCH, useAppData } from '../lib/store'
 
 export default function Home() {
   const data = useAppData()
   const cards = buildDeck(data)
   const c = counts(cards, data, today())
   const nothing = c.due + c.newToday === 0
+  const more = Math.min(EXTRA_NEW_BATCH, c.newLeft)
 
   return (
     <div className="home">
@@ -38,13 +39,23 @@ export default function Home() {
       </p>
 
       <div className="home-actions">
-        <button className="btn primary big" disabled={nothing} onClick={() => go('review')}>
-          {nothing ? 'All done for today 🎉' : 'Start review'}
-        </button>
-        {nothing && c.newLeft > 0 && (
-          <p className="muted center small">
-            Want more? Raise "new cards per day" under <a href="#/more">More</a>.
-          </p>
+        {nothing ? (
+          <p className="center done-msg">All done for today 🎉</p>
+        ) : (
+          <button className="btn primary big" onClick={() => go('review')}>
+            Start review
+          </button>
+        )}
+        {c.newToday === 0 && more > 0 && (
+          <button
+            className={nothing ? 'btn primary big' : 'btn big'}
+            onClick={() => {
+              addExtraNew(more)
+              go('review')
+            }}
+          >
+            + {more} more new cards
+          </button>
         )}
       </div>
     </div>

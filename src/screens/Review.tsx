@@ -7,7 +7,7 @@ import { today } from '../lib/day'
 import { dueCards, newCards } from '../lib/queue'
 import { go } from '../lib/route'
 import { fail, pass, previewPassDays } from '../lib/srs'
-import { dailyFor, getState, update, useAppData } from '../lib/store'
+import { addExtraNew, dailyFor, EXTRA_NEW_BATCH, getState, update, useAppData } from '../lib/store'
 
 /** How many cards later a failed card comes back in the same session. */
 const RELEARN_GAP = 3
@@ -57,7 +57,7 @@ export default function Review() {
         const daily = dailyFor(s, day)
         return {
           progress: { ...s.progress, [id]: ok ? pass(prev, day, failed.current.has(id)) : fail(prev, day) },
-          daily: prev || daily.newIds.includes(id) ? daily : { day, newIds: [...daily.newIds, id] },
+          daily: prev || daily.newIds.includes(id) ? daily : { ...daily, newIds: [...daily.newIds, id] },
         }
       })
       setDone((d) => (ok ? { ...d, pass: d.pass + 1 } : { ...d, fail: d.fail + 1 }))
@@ -92,6 +92,8 @@ export default function Review() {
   }, [revealed, grade])
 
   if (!card) {
+    const unseen = cards.filter((c) => !data.progress[c.id] && !data.flags[c.id]).length
+    const more = Math.min(EXTRA_NEW_BATCH, unseen)
     return (
       <div className="review">
         <header className="review-bar">
@@ -107,9 +109,23 @@ export default function Review() {
           <p className="muted">
             {done.pass} passed · {done.fail} failed
           </p>
-          <button className="btn primary big" onClick={() => go('home')}>
-            Back home
-          </button>
+          <div className="finished-actions">
+            {more > 0 && (
+              <button
+                className="btn primary big"
+                onClick={() => {
+                  addExtraNew(more)
+                  const s = getState()
+                  next(newCards(buildDeck(s), s, today()).map((c) => c.id))
+                }}
+              >
+                + {more} more new cards
+              </button>
+            )}
+            <button className={more > 0 ? 'btn big' : 'btn primary big'} onClick={() => go('home')}>
+              Back home
+            </button>
+          </div>
         </div>
       </div>
     )

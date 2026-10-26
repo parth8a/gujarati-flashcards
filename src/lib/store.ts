@@ -80,8 +80,19 @@ export function useAppData(): AppData {
 }
 
 /** The day's new-card counter, reset when the study day changes. */
-export function dailyFor(s: AppData, day = today()) {
+export function dailyFor(s: AppData, day = today()): AppData['daily'] {
   return s.daily.day === day ? s.daily : { day, newIds: [] }
+}
+
+/** How many new cards the "+ more" button adds. */
+export const EXTRA_NEW_BATCH = 5
+
+/** Allow `n` more new cards today only; the daily setting is unchanged. */
+export function addExtraNew(n = EXTRA_NEW_BATCH) {
+  update((s) => {
+    const daily = dailyFor(s)
+    return { daily: { ...daily, extra: (daily.extra ?? 0) + n } }
+  })
 }
 
 // Another tab (or the installed app and a browser tab) changed storage.
