@@ -12,31 +12,21 @@ It's a PWA hosted on GitHub Pages. Install it from the browser, no app store nee
 
 ---
 
-## 1. One-time setup on GitHub
+## 1. GitHub setup (already done)
 
-The code is in `parth8a/Gujarati-Flashcard-App`. To serve it at
-`https://parth8a.github.io/gujarati-flashcards/`, do this once in the GitHub web UI:
+The repo is `parth8a/gujarati-flashcards` and the site is
+**https://parth8a.github.io/gujarati-flashcards/**. It's set up like this, for reference if
+you ever rebuild it:
 
-1. **Rename the repo** to `gujarati-flashcards`: *Settings → General → Repository name*.
-   (GitHub redirects the old URL, so existing clones keep working.)
-2. **Make it public**: *Settings → General → Danger Zone → Change visibility*. GitHub Pages
-   on a free account needs a public repo.
-3. **Turn on Pages from Actions**: *Settings → Pages → Build and deployment → Source:
-   **GitHub Actions***.
-4. **Get the code onto `main`**: merge the `claude/gujarati-flashcard-pwa-6id9yg` branch
-   into `main` (open a pull request and merge it, or push the branch to `main`).
+- The repo is **public** (free GitHub Pages needs that).
+- *Settings → Pages → Source* is **GitHub Actions**.
+- *Settings → General → Default branch* is **main**. GitHub only lets the default branch
+  deploy to Pages.
+- *Settings → Environments → github-pages → Deployment branches* allows **main**.
 
-The workflow in `.github/workflows/deploy.yml` then builds and deploys on every push to
-`main`. You can follow it under the repo's **Actions** tab, and you can re-run it by hand
-there with *Run workflow*.
-
-> The workflow asks GitHub Pages for the site's path at build time, so the app works
-> under whatever the repo is called (`https://parth8a.github.io/<repo>/`).
->
-> GitHub only lets the **default branch** deploy to Pages. If a deploy fails with
-> *"Branch main is not allowed to deploy to github-pages"*, set the default branch to
-> `main` (*Settings → General → Default branch*) and make sure *Settings → Environments
-> → github-pages → Deployment branches* allows `main`.
+`.github/workflows/deploy.yml` builds and deploys on every push to `main`. You can follow
+it in the **Actions** tab, and start it by hand there with *Run workflow*. It asks GitHub
+Pages for the site's path at build time, so renaming the repo doesn't break the app.
 
 ## 2. Install it on your phone
 
