@@ -1,0 +1,3390 @@
+[
+  {
+    "id": "u01-001",
+    "unit": 1,
+    "gu": "હું ઘરે છું.",
+    "translit_hi": "हुं घरे छुं.",
+    "en": "I am at home.",
+    "hi": "मैं घर पर हूँ।",
+    "new_item": "હું … છું",
+    "new_item_translit": "हुं … छुं",
+    "new_item_meaning": "I … am ('to be' with 'I'; Hindi मैं … हूँ)",
+    "new_item_form": "pronoun 'I' + present of 'to be', 1st person singular",
+    "new_tokens": [
+      "હું",
+      "છું"
+    ],
+    "grammar_note": "Careful: Gujarati હું (हुं) means \"I\"; \"am\" is છું (Hindi हूँ). ઘરે = \"at home\".",
+    "needs_review": true
+  },
+  {
+    "id": "u01-002",
+    "unit": 1,
+    "gu": "ભાઈ ઘરે છે.",
+    "translit_hi": "भाई घरे छे.",
+    "en": "Brother is at home.",
+    "hi": "भाई घर पर है।",
+    "new_item": "છે",
+    "new_item_translit": "छे",
+    "new_item_meaning": "is ('to be'; Hindi है)",
+    "new_item_form": "present of 'to be', 3rd person singular",
+    "new_tokens": [
+      "છે"
+    ],
+    "grammar_note": "છે = है. ઘરે already means \"at home\" — no separate पर needed.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-003",
+    "unit": 1,
+    "gu": "તું ઘરે છે.",
+    "translit_hi": "तुं घरे छे.",
+    "en": "You are at home.",
+    "hi": "तू घर पर है।",
+    "new_item": "તું",
+    "new_item_translit": "तुं",
+    "new_item_meaning": "you (informal, singular; Hindi तू)",
+    "new_item_form": "2nd person singular pronoun, informal",
+    "new_tokens": [
+      "તું"
+    ],
+    "grammar_note": "Like Hindi तू है, તું also takes છે.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-004",
+    "unit": 1,
+    "gu": "તે બીમાર છે.",
+    "translit_hi": "ते बीमार छे.",
+    "en": "He/She is ill.",
+    "hi": "वह बीमार है।",
+    "new_item": "તે",
+    "new_item_translit": "ते",
+    "new_item_meaning": "he / she / it (Hindi वह)",
+    "new_item_form": "3rd person singular pronoun",
+    "new_tokens": [
+      "તે"
+    ],
+    "grammar_note": "તે has no gender: the same word for he, she and it.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-005",
+    "unit": 1,
+    "gu": "હું અહીં છું.",
+    "translit_hi": "हुं अहीं छुं.",
+    "en": "I am here.",
+    "hi": "मैं यहाँ हूँ।",
+    "new_item": "અહીં",
+    "new_item_translit": "अहीं",
+    "new_item_meaning": "here (Hindi यहाँ)",
+    "new_item_form": "adverb of place",
+    "new_tokens": [
+      "અહીં"
+    ],
+    "grammar_note": "અહીં = यहाँ. Its partner is ત્યાં (वहाँ).",
+    "needs_review": true
+  },
+  {
+    "id": "u01-006",
+    "unit": 1,
+    "gu": "મમ્મી ત્યાં છે.",
+    "translit_hi": "मम्मी त्यां छे.",
+    "en": "Mom is there.",
+    "hi": "मम्मी वहाँ है।",
+    "new_item": "ત્યાં",
+    "new_item_translit": "त्यां",
+    "new_item_meaning": "there (Hindi वहाँ)",
+    "new_item_form": "adverb of place",
+    "new_tokens": [
+      "ત્યાં"
+    ],
+    "grammar_note": "ત્યાં = वहाँ; pairs with અહીં (here).",
+    "needs_review": true
+  },
+  {
+    "id": "u01-007",
+    "unit": 1,
+    "gu": "અમે અહીં છીએ.",
+    "translit_hi": "अमे अहीं छीए.",
+    "en": "We are here.",
+    "hi": "हम यहाँ हैं।",
+    "new_item": "અમે … છીએ",
+    "new_item_translit": "अमे … छीए",
+    "new_item_meaning": "we (exclusive) … are",
+    "new_item_form": "pronoun 'we' (exclusive) + present of 'to be', 1st person plural",
+    "new_tokens": [
+      "અમે",
+      "છીએ"
+    ],
+    "grammar_note": "અમે = \"we, not including you\". Gujarati has its own \"we are\" form છીએ (Hindi just हैं).",
+    "needs_review": true
+  },
+  {
+    "id": "u01-008",
+    "unit": 1,
+    "gu": "આપણે તૈયાર છીએ.",
+    "translit_hi": "आपणे तैयार छीए.",
+    "en": "We (you and I) are ready.",
+    "hi": "हम (सब) तैयार हैं।",
+    "new_item": "આપણે",
+    "new_item_translit": "आपणे",
+    "new_item_meaning": "we (inclusive — includes the listener)",
+    "new_item_form": "1st person plural pronoun, inclusive",
+    "new_tokens": [
+      "આપણે"
+    ],
+    "grammar_note": "Hindi has one हम; Gujarati splits it: આપણે includes the listener, અમે leaves them out.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-009",
+    "unit": 1,
+    "gu": "તમે ખુશ છો.",
+    "translit_hi": "तमे खुश छो.",
+    "en": "You are happy.",
+    "hi": "आप खुश हैं।",
+    "new_item": "તમે … છો",
+    "new_item_translit": "तमे … छो",
+    "new_item_meaning": "you (polite / plural) … are",
+    "new_item_form": "pronoun 'you' (polite/plural) + present of 'to be', 2nd person plural",
+    "new_tokens": [
+      "તમે",
+      "છો"
+    ],
+    "grammar_note": "તમે covers both तुम and आप; it always takes છો.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-010",
+    "unit": 1,
+    "gu": "એ ત્યાં છે.",
+    "translit_hi": "ए त्यां छे.",
+    "en": "He/She is there.",
+    "hi": "वो वहाँ है।",
+    "new_item": "એ",
+    "new_item_translit": "ए",
+    "new_item_meaning": "he / she / that (colloquial; Hindi वो)",
+    "new_item_form": "3rd person pronoun, colloquial",
+    "new_tokens": [
+      "એ"
+    ],
+    "grammar_note": "In speech એ is more common than તે — just like वो vs वह.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-011",
+    "unit": 1,
+    "gu": "તેઓ બહાર છે.",
+    "translit_hi": "तेओ बहार छे.",
+    "en": "They are outside.",
+    "hi": "वे बाहर हैं।",
+    "new_item": "તેઓ",
+    "new_item_translit": "तेओ",
+    "new_item_meaning": "they (Hindi वे)",
+    "new_item_form": "3rd person plural pronoun",
+    "new_tokens": [
+      "તેઓ"
+    ],
+    "grammar_note": "Plural \"they\" still takes છે: Gujarati has no separate हैं form in the 3rd person.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-012",
+    "unit": 1,
+    "gu": "પપ્પા ઓફિસે છે.",
+    "translit_hi": "पप्पा ओफिसे छे.",
+    "en": "Dad is at the office.",
+    "hi": "पापा ऑफिस में हैं।",
+    "new_item": "-એ",
+    "new_item_translit": "-ए",
+    "new_item_meaning": "at / in (locative suffix, as in ઘરે)",
+    "new_item_form": "locative case suffix",
+    "new_tokens": [
+      "-એ"
+    ],
+    "grammar_note": "Add -એ to a place for \"at\": ઘર → ઘરે, ઓફિસ → ઓફિસે. Note: Dad gets plain છે, not a respectful plural like हैं.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-013",
+    "unit": 1,
+    "gu": "હું પણ ખુશ છું.",
+    "translit_hi": "हुं पण खुश छुं.",
+    "en": "I am happy too.",
+    "hi": "मैं भी खुश हूँ।",
+    "new_item": "પણ",
+    "new_item_translit": "पण",
+    "new_item_meaning": "also, too (Hindi भी); at the start of a clause: 'but'",
+    "new_item_form": "particle",
+    "new_tokens": [
+      "પણ"
+    ],
+    "grammar_note": "After a word પણ = भी; starting a clause it means \"but\" (लेकिन).",
+    "needs_review": true
+  },
+  {
+    "id": "u01-014",
+    "unit": 1,
+    "gu": "આ ચા છે.",
+    "translit_hi": "आ चा छे.",
+    "en": "This is tea.",
+    "hi": "यह चाय है।",
+    "new_item": "આ",
+    "new_item_translit": "आ",
+    "new_item_meaning": "this (Hindi यह / ये)",
+    "new_item_form": "demonstrative pronoun (near)",
+    "new_tokens": [
+      "આ"
+    ],
+    "grammar_note": "આ = यह for anything near you.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-015",
+    "unit": 1,
+    "gu": "બધા ઘરે છે.",
+    "translit_hi": "बधा घरे छे.",
+    "en": "Everyone is at home.",
+    "hi": "सब घर पर हैं।",
+    "new_item": "બધા",
+    "new_item_translit": "बधा",
+    "new_item_meaning": "all, everyone (Hindi सब)",
+    "new_item_form": "pronoun / adjective, plural",
+    "new_tokens": [
+      "બધા"
+    ],
+    "grammar_note": "બધા = सब (people). Later: બધું = everything.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-016",
+    "unit": 1,
+    "gu": "હું મજામાં છું.",
+    "translit_hi": "हुं मजामां छुं.",
+    "en": "I'm doing fine.",
+    "hi": "मैं ठीक हूँ (मज़े में हूँ)।",
+    "new_item": "મજામાં",
+    "new_item_translit": "मजामां",
+    "new_item_meaning": "fine, doing well (lit. 'in fun')",
+    "new_item_form": "set phrase (મજા + -માં)",
+    "new_tokens": [
+      "મજામાં"
+    ],
+    "grammar_note": "The standard reply to \"how are you?\" — literally \"I am in fun\".",
+    "needs_review": true
+  },
+  {
+    "id": "u01-017",
+    "unit": 1,
+    "gu": "પપ્પા અત્યારે ઓફિસે છે.",
+    "translit_hi": "पप्पा अत्यारे ओफिसे छे.",
+    "en": "Dad is at the office right now.",
+    "hi": "पापा अभी ऑफिस में हैं।",
+    "new_item": "અત્યારે",
+    "new_item_translit": "अत्यारे",
+    "new_item_meaning": "right now, at present (Hindi अभी)",
+    "new_item_form": "adverb of time",
+    "new_tokens": [
+      "અત્યારે"
+    ],
+    "grammar_note": "અત્યારે = अभी (at this moment).",
+    "needs_review": true
+  },
+  {
+    "id": "u01-018",
+    "unit": 1,
+    "gu": "પેલું ઘર નવું છે.",
+    "translit_hi": "पेलुं घर नवुं छे.",
+    "en": "That house (over there) is new.",
+    "hi": "वह घर नया है।",
+    "new_item": "પેલું",
+    "new_item_translit": "पेलुं",
+    "new_item_meaning": "that (over there), neuter",
+    "new_item_form": "demonstrative, neuter singular",
+    "new_tokens": [
+      "પેલું"
+    ],
+    "grammar_note": "Gujarati has a 3rd gender, neuter: ઘર is neuter, so \"that\" is પેલું and \"new\" is નવું (not नया/नई).",
+    "needs_review": true
+  },
+  {
+    "id": "u01-019",
+    "unit": 1,
+    "gu": "તમે બહુ સારા છો.",
+    "translit_hi": "तमे बहु सारा छो.",
+    "en": "You are very nice.",
+    "hi": "आप बहुत अच्छे हैं।",
+    "new_item": "સારા",
+    "new_item_translit": "सारा",
+    "new_item_meaning": "good, nice (Hindi अच्छे)",
+    "new_item_form": "adjective, plural/polite form",
+    "new_tokens": [
+      "સારા"
+    ],
+    "grammar_note": "સારો/સારી/સારું/સારા = अच्छा/अच्छी/—/अच्छे. With તમે it takes plural -આ.",
+    "needs_review": true
+  },
+  {
+    "id": "u01-020",
+    "unit": 1,
+    "gu": "અમે બે ભાઈ છીએ.",
+    "translit_hi": "अमे बे भाई छीए.",
+    "en": "We are two brothers.",
+    "hi": "हम दो भाई हैं।",
+    "new_item": "બે",
+    "new_item_translit": "बे",
+    "new_item_meaning": "two (Hindi दो)",
+    "new_item_form": "number",
+    "new_tokens": [
+      "બે"
+    ],
+    "grammar_note": "બે = दो — one of the few numbers that is not a cognate (ચાર = चार, પાંચ = पाँच).",
+    "needs_review": true
+  },
+  {
+    "id": "u02-001",
+    "unit": 2,
+    "gu": "હું ઘરે નથી.",
+    "translit_hi": "हुं घरे नथी.",
+    "en": "I am not at home.",
+    "hi": "मैं घर पर नहीं हूँ।",
+    "new_item": "નથી",
+    "new_item_translit": "नथी",
+    "new_item_meaning": "am not / is not / are not",
+    "new_item_form": "negative of 'to be', all persons",
+    "new_tokens": [
+      "નથી"
+    ],
+    "grammar_note": "નથી replaces છું/છે/છીએ/છો completely — one form for every person, unlike Hindi नहीं हूँ / नहीं है.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-002",
+    "unit": 2,
+    "gu": "તમે ક્યાં છો?",
+    "translit_hi": "तमे क्यां छो?",
+    "en": "Where are you?",
+    "hi": "आप कहाँ हैं?",
+    "new_item": "ક્યાં",
+    "new_item_translit": "क्यां",
+    "new_item_meaning": "where (Hindi कहाँ)",
+    "new_item_form": "question word",
+    "new_tokens": [
+      "ક્યાં"
+    ],
+    "grammar_note": "ક્યાં (क्यां) = कहाँ. Don't confuse it with Hindi क्या.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-003",
+    "unit": 2,
+    "gu": "આ શું છે?",
+    "translit_hi": "आ शुं छे?",
+    "en": "What is this?",
+    "hi": "यह क्या है?",
+    "new_item": "શું",
+    "new_item_translit": "शुं",
+    "new_item_meaning": "what (Hindi क्या)",
+    "new_item_form": "question word",
+    "new_tokens": [
+      "શું"
+    ],
+    "grammar_note": "શું = क्या. At the start of a sentence it also makes a yes/no question.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-004",
+    "unit": 2,
+    "gu": "તે કોણ છે?",
+    "translit_hi": "ते कोण छे?",
+    "en": "Who is he/she?",
+    "hi": "वह कौन है?",
+    "new_item": "કોણ",
+    "new_item_translit": "कोण",
+    "new_item_meaning": "who (Hindi कौन)",
+    "new_item_form": "question word",
+    "new_tokens": [
+      "કોણ"
+    ],
+    "grammar_note": "કોણ = कौन.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-005",
+    "unit": 2,
+    "gu": "તમે કેમ છો?",
+    "translit_hi": "तमे केम छो?",
+    "en": "How are you?",
+    "hi": "आप कैसे हैं?",
+    "new_item": "કેમ",
+    "new_item_translit": "केम",
+    "new_item_meaning": "how (in greetings); also 'why'",
+    "new_item_form": "question word",
+    "new_tokens": [
+      "કેમ"
+    ],
+    "grammar_note": "કેમ છો? is THE Gujarati greeting. Elsewhere કેમ usually means \"why\" (क्यों).",
+    "needs_review": true
+  },
+  {
+    "id": "u02-006",
+    "unit": 2,
+    "gu": "હા, હું મજામાં છું.",
+    "translit_hi": "हा, हुं मजामां छुं.",
+    "en": "Yes, I'm fine.",
+    "hi": "हाँ, मैं ठीक हूँ।",
+    "new_item": "હા",
+    "new_item_translit": "हा",
+    "new_item_meaning": "yes (Hindi हाँ)",
+    "new_item_form": "particle",
+    "new_tokens": [
+      "હા"
+    ],
+    "grammar_note": "હા = हाँ.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-007",
+    "unit": 2,
+    "gu": "ના, હું બીમાર નથી.",
+    "translit_hi": "ना, हुं बीमार नथी.",
+    "en": "No, I'm not ill.",
+    "hi": "नहीं, मैं बीमार नहीं हूँ।",
+    "new_item": "ના",
+    "new_item_translit": "ना",
+    "new_item_meaning": "no (as an answer; Hindi नहीं / ना)",
+    "new_item_form": "particle",
+    "new_tokens": [
+      "ના"
+    ],
+    "grammar_note": "ના answers \"no\"; inside a sentence \"is not\" is નથી.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-008",
+    "unit": 2,
+    "gu": "ચા નહીં, કૉફી.",
+    "translit_hi": "चा नहीं, कॉफी.",
+    "en": "Not tea — coffee.",
+    "hi": "चाय नहीं, कॉफ़ी।",
+    "new_item": "નહીં",
+    "new_item_translit": "नहीं",
+    "new_item_meaning": "not (Hindi नहीं)",
+    "new_item_form": "negative particle",
+    "new_tokens": [
+      "નહીં"
+    ],
+    "grammar_note": "નહીં negates a word (and, later, verbs). With \"to be\", use નથી.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-009",
+    "unit": 2,
+    "gu": "ઘરે કોઈ નથી.",
+    "translit_hi": "घरे कोई नथी.",
+    "en": "Nobody is at home.",
+    "hi": "घर पर कोई नहीं है।",
+    "new_item": "કોઈ",
+    "new_item_translit": "कोई",
+    "new_item_meaning": "someone / anyone (Hindi कोई)",
+    "new_item_form": "indefinite pronoun",
+    "new_tokens": [
+      "કોઈ"
+    ],
+    "grammar_note": "કોઈ નથી = कोई नहीं है (nobody).",
+    "needs_review": true
+  },
+  {
+    "id": "u02-010",
+    "unit": 2,
+    "gu": "કંઈ નથી.",
+    "translit_hi": "कंई नथी.",
+    "en": "It's nothing.",
+    "hi": "कुछ नहीं है।",
+    "new_item": "કંઈ",
+    "new_item_translit": "कंई",
+    "new_item_meaning": "something / anything (Hindi कुछ)",
+    "new_item_form": "indefinite pronoun",
+    "new_tokens": [
+      "કંઈ"
+    ],
+    "grammar_note": "કંઈ = कुछ; કંઈ નથી = \"nothing\" (lit. \"anything isn't\").",
+    "needs_review": true
+  },
+  {
+    "id": "u02-011",
+    "unit": 2,
+    "gu": "કેટલા પૈસા છે?",
+    "translit_hi": "केटला पैसा छे?",
+    "en": "How much money is there?",
+    "hi": "कितने पैसे हैं?",
+    "new_item": "કેટલા",
+    "new_item_translit": "केटला",
+    "new_item_meaning": "how many / how much (plural; Hindi कितने)",
+    "new_item_form": "question word, plural",
+    "new_tokens": [
+      "કેટલા"
+    ],
+    "grammar_note": "કેટલો/કેટલી/કેટલું/કેટલા = कितना/कितनी/—/कितने: note the extra neuter form.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-012",
+    "unit": 2,
+    "gu": "આ કયું ઘર છે?",
+    "translit_hi": "आ कयुं घर छे?",
+    "en": "Which house is this?",
+    "hi": "यह कौन-सा घर है?",
+    "new_item": "કયું",
+    "new_item_translit": "कयुं",
+    "new_item_meaning": "which (neuter; Hindi कौन-सा)",
+    "new_item_form": "question word, neuter singular",
+    "new_tokens": [
+      "કયું"
+    ],
+    "grammar_note": "કયો/કઈ/કયું = कौन-सा/कौन-सी/—. ઘર is neuter → કયું.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-013",
+    "unit": 2,
+    "gu": "તમે ક્યારે ફ્રી છો?",
+    "translit_hi": "तमे क्यारे फ्री छो?",
+    "en": "When are you free?",
+    "hi": "आप कब फ़्री हैं?",
+    "new_item": "ક્યારે",
+    "new_item_translit": "क्यारे",
+    "new_item_meaning": "when (Hindi कब)",
+    "new_item_form": "question word",
+    "new_tokens": [
+      "ક્યારે"
+    ],
+    "grammar_note": "ક્યારે = कब.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-014",
+    "unit": 2,
+    "gu": "ઘર કેવું છે?",
+    "translit_hi": "घर केवुं छे?",
+    "en": "How is the house?",
+    "hi": "घर कैसा है?",
+    "new_item": "કેવું",
+    "new_item_translit": "केवुं",
+    "new_item_meaning": "how / what kind (neuter; Hindi कैसा)",
+    "new_item_form": "question word, neuter singular",
+    "new_tokens": [
+      "કેવું"
+    ],
+    "grammar_note": "કેવો/કેવી/કેવું = कैसा/कैसी/— — the neuter form goes with ઘર.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-015",
+    "unit": 2,
+    "gu": "આ ઘર કોનું છે?",
+    "translit_hi": "आ घर कोनुं छे?",
+    "en": "Whose house is this?",
+    "hi": "यह घर किसका है?",
+    "new_item": "કોનું",
+    "new_item_translit": "कोनुं",
+    "new_item_meaning": "whose (neuter; Hindi किसका)",
+    "new_item_form": "question word, genitive neuter",
+    "new_tokens": [
+      "કોનું"
+    ],
+    "grammar_note": "કોનો/કોની/કોનું = किसका/किसकी/— — agrees with the thing owned.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-016",
+    "unit": 2,
+    "gu": "તમે ઘરે છો ને?",
+    "translit_hi": "तमे घरे छो ने?",
+    "en": "You're at home, right?",
+    "hi": "आप घर पर हैं ना?",
+    "new_item": "ને",
+    "new_item_translit": "ने",
+    "new_item_meaning": "right?, isn't it? (tag; Hindi ना?)",
+    "new_item_form": "tag-question particle",
+    "new_tokens": [
+      "ને"
+    ],
+    "grammar_note": "A final ને? asks for confirmation, like Hindi ना?",
+    "needs_review": true
+  },
+  {
+    "id": "u02-017",
+    "unit": 2,
+    "gu": "તે હજી ઓફિસે છે.",
+    "translit_hi": "ते हजी ओफिसे छे.",
+    "en": "He is still at the office.",
+    "hi": "वह अभी भी ऑफिस में है।",
+    "new_item": "હજી",
+    "new_item_translit": "हजी",
+    "new_item_meaning": "still, yet (Hindi अभी भी / अभी तक)",
+    "new_item_form": "adverb of time",
+    "new_tokens": [
+      "હજી"
+    ],
+    "grammar_note": "હજી = अभी भी; હજી નથી = \"not yet\".",
+    "needs_review": true
+  },
+  {
+    "id": "u02-018",
+    "unit": 2,
+    "gu": "શું આ સાચું છે?",
+    "translit_hi": "शुं आ साचुं छे?",
+    "en": "Is this true?",
+    "hi": "क्या यह सच है?",
+    "new_item": "સાચું",
+    "new_item_translit": "साचुं",
+    "new_item_meaning": "true, right (neuter; Hindi सच)",
+    "new_item_form": "adjective, neuter singular",
+    "new_tokens": [
+      "સાચું"
+    ],
+    "grammar_note": "શું at the start makes a yes/no question, exactly like Hindi क्या.",
+    "needs_review": true
+  },
+  {
+    "id": "u02-019",
+    "unit": 2,
+    "gu": "ના, આ ખોટું છે.",
+    "translit_hi": "ना, आ खोटुं छे.",
+    "en": "No, this is wrong.",
+    "hi": "नहीं, यह गलत है।",
+    "new_item": "ખોટું",
+    "new_item_translit": "खोटुं",
+    "new_item_meaning": "wrong, false (neuter; Hindi गलत)",
+    "new_item_form": "adjective, neuter singular",
+    "new_tokens": [
+      "ખોટું"
+    ],
+    "grammar_note": "ખોટું = गलत (compare Hindi खोटा, \"fake\").",
+    "needs_review": true
+  },
+  {
+    "id": "u02-020",
+    "unit": 2,
+    "gu": "બધું ઠીક છે?",
+    "translit_hi": "बधुं ठीक छे?",
+    "en": "Is everything OK?",
+    "hi": "सब ठीक है?",
+    "new_item": "બધું",
+    "new_item_translit": "बधुं",
+    "new_item_meaning": "everything (Hindi सब कुछ)",
+    "new_item_form": "pronoun, neuter singular",
+    "new_tokens": [
+      "બધું"
+    ],
+    "grammar_note": "બધું (neuter) = everything; બધા (plural) = everyone.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-001",
+    "unit": 3,
+    "gu": "હું ચા પીઉં છું.",
+    "translit_hi": "हुं चा पीउं छुं.",
+    "en": "I drink tea.",
+    "hi": "मैं चाय पीता हूँ।",
+    "new_item": "પીઉં",
+    "new_item_translit": "पीउं",
+    "new_item_meaning": "drink (with 'I'; from પીવું, to drink)",
+    "new_item_form": "simple present, 1st person singular",
+    "new_tokens": [
+      "પીઉં"
+    ],
+    "grammar_note": "Stem + -ઉં + છું. No gender here: Hindi needs पीता/पीती, Gujarati doesn't.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-002",
+    "unit": 3,
+    "gu": "ભાઈ દૂધ પીએ છે.",
+    "translit_hi": "भाई दूध पीए छे.",
+    "en": "Brother drinks milk.",
+    "hi": "भाई दूध पीता है।",
+    "new_item": "પીએ",
+    "new_item_translit": "पीए",
+    "new_item_meaning": "drinks (he/she)",
+    "new_item_form": "simple present, 3rd person singular",
+    "new_tokens": [
+      "પીએ"
+    ],
+    "grammar_note": "Stem + -એ + છે for he/she/તું. पीता and पीती are both પીએ છે.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-003",
+    "unit": 3,
+    "gu": "હું રોટલી ખાઉં છું.",
+    "translit_hi": "हुं रोटली खाउं छुं.",
+    "en": "I eat roti.",
+    "hi": "मैं रोटी खाता हूँ।",
+    "new_item": "ખાઉં",
+    "new_item_translit": "खाउं",
+    "new_item_meaning": "eat (with 'I'; from ખાવું, to eat)",
+    "new_item_form": "simple present, 1st person singular",
+    "new_tokens": [
+      "ખાઉં"
+    ],
+    "grammar_note": "Same -ઉં ending as પીઉં: ખા + ઉં.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-004",
+    "unit": 3,
+    "gu": "તે ભાત ખાય છે.",
+    "translit_hi": "ते भात खाय छे.",
+    "en": "He/She eats rice.",
+    "hi": "वह भात खाता/खाती है।",
+    "new_item": "ખાય",
+    "new_item_translit": "खाय",
+    "new_item_meaning": "eats (he/she)",
+    "new_item_form": "simple present, 3rd person singular",
+    "new_tokens": [
+      "ખાય"
+    ],
+    "grammar_note": "Stems ending in -આ add -ય: ખાય, જાય.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-005",
+    "unit": 3,
+    "gu": "અમે ઘરે જમીએ છીએ.",
+    "translit_hi": "अमे घरे जमीए छीए.",
+    "en": "We eat our meals at home.",
+    "hi": "हम घर पर खाना खाते हैं।",
+    "new_item": "જમીએ",
+    "new_item_translit": "जमीए",
+    "new_item_meaning": "eat a meal (with 'we'; from જમવું)",
+    "new_item_form": "simple present, 1st person plural",
+    "new_tokens": [
+      "જમીએ"
+    ],
+    "grammar_note": "જમવું = \"to have a meal\" (Hindi खाना खाना). \"We\" forms end in -ઈએ છીએ.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-006",
+    "unit": 3,
+    "gu": "હું બહુ કામ કરું છું.",
+    "translit_hi": "हुं बहु काम करुं छुं.",
+    "en": "I work a lot.",
+    "hi": "मैं बहुत काम करता हूँ।",
+    "new_item": "કરું",
+    "new_item_translit": "करुं",
+    "new_item_meaning": "do (with 'I'; from કરવું, to do)",
+    "new_item_form": "simple present, 1st person singular",
+    "new_tokens": [
+      "કરું"
+    ],
+    "grammar_note": "Consonant stems take -ઉં directly: કર → કરું.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-007",
+    "unit": 3,
+    "gu": "તે પણ કામ કરે છે.",
+    "translit_hi": "ते पण काम करे छे.",
+    "en": "She works too.",
+    "hi": "वह भी काम करती है।",
+    "new_item": "કરે",
+    "new_item_translit": "करे",
+    "new_item_meaning": "does (he/she)",
+    "new_item_form": "simple present, 3rd person singular",
+    "new_tokens": [
+      "કરે"
+    ],
+    "grammar_note": "કર + એ = કરે — the same for he and she (करता/करती).",
+    "needs_review": true
+  },
+  {
+    "id": "u03-008",
+    "unit": 3,
+    "gu": "તમે શું કરો છો?",
+    "translit_hi": "तमे शुं करो छो?",
+    "en": "What do you do?",
+    "hi": "आप क्या करते हैं?",
+    "new_item": "કરો",
+    "new_item_translit": "करो",
+    "new_item_meaning": "do (with તમે)",
+    "new_item_form": "simple present, 2nd person plural",
+    "new_tokens": [
+      "કરો"
+    ],
+    "grammar_note": "તમે forms end in -ઓ + છો.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-009",
+    "unit": 3,
+    "gu": "હું ઓફિસે જાઉં છું.",
+    "translit_hi": "हुं ओफिसे जाउं छुं.",
+    "en": "I go to the office.",
+    "hi": "मैं ऑफिस जाता हूँ।",
+    "new_item": "જાઉં",
+    "new_item_translit": "जाउं",
+    "new_item_meaning": "go (with 'I'; from જવું, to go)",
+    "new_item_form": "simple present, 1st person singular",
+    "new_tokens": [
+      "જાઉં"
+    ],
+    "grammar_note": "જવું is irregular: હું જાઉં, તે જાય, અમે જઈએ, તમે જાઓ.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-010",
+    "unit": 3,
+    "gu": "પપ્પા રોજ ઓફિસે જાય છે.",
+    "translit_hi": "पप्पा रोज ओफिसे जाय छे.",
+    "en": "Dad goes to the office every day.",
+    "hi": "पापा रोज़ ऑफिस जाते हैं।",
+    "new_item": "જાય",
+    "new_item_translit": "जाय",
+    "new_item_meaning": "goes (he/she/they)",
+    "new_item_form": "simple present, 3rd person",
+    "new_tokens": [
+      "જાય"
+    ],
+    "grammar_note": "Hindi shows respect with plural जाते हैं; Gujarati just says જાય છે.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-011",
+    "unit": 3,
+    "gu": "આપણે ગુજરાતી બોલીએ છીએ.",
+    "translit_hi": "आपणे गुजराती बोलीए छीए.",
+    "en": "We (you and I) speak Gujarati.",
+    "hi": "हम गुजराती बोलते हैं।",
+    "new_item": "બોલીએ",
+    "new_item_translit": "बोलीए",
+    "new_item_meaning": "speak (with 'we'; from બોલવું)",
+    "new_item_form": "simple present, 1st person plural",
+    "new_tokens": [
+      "બોલીએ"
+    ],
+    "grammar_note": "-ઈએ છીએ works with both અમે and આપણે.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-012",
+    "unit": 3,
+    "gu": "તમે હિન્દી બોલો છો?",
+    "translit_hi": "तमे हिन्दी बोलो छो?",
+    "en": "Do you speak Hindi?",
+    "hi": "क्या आप हिंदी बोलते हैं?",
+    "new_item": "બોલો",
+    "new_item_translit": "बोलो",
+    "new_item_meaning": "speak (with તમે)",
+    "new_item_form": "simple present, 2nd person plural",
+    "new_tokens": [
+      "બોલો"
+    ],
+    "grammar_note": "A yes/no question can be just intonation, without શું.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-013",
+    "unit": 3,
+    "gu": "હું થોડું ગુજરાતી સમજું છું.",
+    "translit_hi": "हुं थोडुं गुजराती समजुं छुं.",
+    "en": "I understand a little Gujarati.",
+    "hi": "मैं थोड़ी गुजराती समझता हूँ।",
+    "new_item": "સમજું",
+    "new_item_translit": "समजुं",
+    "new_item_meaning": "understand (with 'I'; from સમજવું)",
+    "new_item_form": "simple present, 1st person singular",
+    "new_tokens": [
+      "સમજું"
+    ],
+    "grammar_note": "Language names behave as neuter: થોડું ગુજરાતી (Hindi थोड़ी गुजराती).",
+    "needs_review": true
+  },
+  {
+    "id": "u03-014",
+    "unit": 3,
+    "gu": "તમે ક્યાં રહો છો?",
+    "translit_hi": "तमे क्यां रहो छो?",
+    "en": "Where do you live?",
+    "hi": "आप कहाँ रहते हैं?",
+    "new_item": "રહો",
+    "new_item_translit": "रहो",
+    "new_item_meaning": "live, stay (with તમે; from રહેવું)",
+    "new_item_form": "simple present, 2nd person plural",
+    "new_tokens": [
+      "રહો"
+    ],
+    "grammar_note": "રહેવું = रहना.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-015",
+    "unit": 3,
+    "gu": "હું અમદાવાદ રહું છું.",
+    "translit_hi": "हुं अमदावाद रहुं छुं.",
+    "en": "I live in Ahmedabad.",
+    "hi": "मैं अहमदाबाद में रहता हूँ।",
+    "new_item": "રહું",
+    "new_item_translit": "रहुं",
+    "new_item_meaning": "live (with 'I')",
+    "new_item_form": "simple present, 1st person singular",
+    "new_tokens": [
+      "રહું"
+    ],
+    "grammar_note": "In speech \"in\" is often dropped with city names: અમદાવાદ રહું છું.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-016",
+    "unit": 3,
+    "gu": "મમ્મી રોજ શાક લાવે છે.",
+    "translit_hi": "मम्मी रोज शाक लावे छे.",
+    "en": "Mom brings vegetables every day.",
+    "hi": "मम्मी रोज़ सब्ज़ी लाती है।",
+    "new_item": "લાવે",
+    "new_item_translit": "लावे",
+    "new_item_meaning": "brings (he/she; from લાવવું)",
+    "new_item_form": "simple present, 3rd person singular",
+    "new_tokens": [
+      "લાવે"
+    ],
+    "grammar_note": "લાવવું = लाना. શાક = vegetables / a cooked vegetable dish.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-017",
+    "unit": 3,
+    "gu": "બાળકો ક્યારે આવે છે?",
+    "translit_hi": "बाळको क्यारे आवे छे?",
+    "en": "When do the kids come?",
+    "hi": "बच्चे कब आते हैं?",
+    "new_item": "આવે",
+    "new_item_translit": "आवे",
+    "new_item_meaning": "come (he/she/they; from આવવું)",
+    "new_item_form": "simple present, 3rd person",
+    "new_tokens": [
+      "આવે"
+    ],
+    "grammar_note": "3rd person plural = singular: તે આવે છે / તેઓ આવે છે.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-018",
+    "unit": 3,
+    "gu": "હું સાંજે ઘરે આવું છું.",
+    "translit_hi": "हुं सांजे घरे आवुं छुं.",
+    "en": "I come home in the evening.",
+    "hi": "मैं शाम को घर आता हूँ।",
+    "new_item": "આવું",
+    "new_item_translit": "आवुं",
+    "new_item_meaning": "come (with 'I')",
+    "new_item_form": "simple present, 1st person singular",
+    "new_tokens": [
+      "આવું"
+    ],
+    "grammar_note": "સાંજે = \"in the evening\": the same -એ as ઘરે.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-019",
+    "unit": 3,
+    "gu": "હું ચા નથી પીતો.",
+    "translit_hi": "हुं चा नथी पीतो.",
+    "en": "I don't drink tea.",
+    "hi": "मैं चाय नहीं पीता।",
+    "new_item": "પીતો",
+    "new_item_translit": "पीतो",
+    "new_item_meaning": "drink (negative habitual, masculine)",
+    "new_item_form": "habitual participle, masculine singular",
+    "new_tokens": [
+      "પીતો"
+    ],
+    "grammar_note": "Negative habitual = નથી + -તો/-તી/-તું. Gender appears here (પીતો m / પીતી f), like Hindi पीता/पीती.",
+    "needs_review": true
+  },
+  {
+    "id": "u03-020",
+    "unit": 3,
+    "gu": "તે માંસ નથી ખાતી.",
+    "translit_hi": "ते मांस नथी खाती.",
+    "en": "She doesn't eat meat.",
+    "hi": "वह मांस नहीं खाती।",
+    "new_item": "ખાતી",
+    "new_item_translit": "खाती",
+    "new_item_meaning": "eat (negative habitual, feminine)",
+    "new_item_form": "habitual participle, feminine singular",
+    "new_tokens": [
+      "ખાતી"
+    ],
+    "grammar_note": "Feminine -તી, just like Hindi खाती.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-001",
+    "unit": 4,
+    "gu": "હું ખાઈ રહ્યો છું.",
+    "translit_hi": "हुं खाई रह्यो छुं.",
+    "en": "I am eating.",
+    "hi": "मैं खा रहा हूँ।",
+    "new_item": "ખાઈ રહ્યો",
+    "new_item_translit": "खाई रह्यो",
+    "new_item_meaning": "am eating (progressive, masculine)",
+    "new_item_form": "present progressive, masculine singular",
+    "new_tokens": [
+      "ખાઈ",
+      "રહ્યો"
+    ],
+    "grammar_note": "Stem + -ઈ + રહ્યો છું = खा रहा हूँ. રહ્યો agrees in gender like रहा.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-002",
+    "unit": 4,
+    "gu": "મમ્મી ખાઈ રહી છે.",
+    "translit_hi": "मम्मी खाई रही छे.",
+    "en": "Mom is eating.",
+    "hi": "मम्मी खा रही है।",
+    "new_item": "રહી",
+    "new_item_translit": "रही",
+    "new_item_meaning": "…-ing (progressive, feminine)",
+    "new_item_form": "present progressive, feminine",
+    "new_tokens": [
+      "રહી"
+    ],
+    "grammar_note": "રહી = रही.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-003",
+    "unit": 4,
+    "gu": "તે આવી રહી છે.",
+    "translit_hi": "ते आवी रही छे.",
+    "en": "She is coming.",
+    "hi": "वह आ रही है।",
+    "new_item": "આવી",
+    "new_item_translit": "आवी",
+    "new_item_meaning": "come (connective -ઈ stem of આવવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "આવી"
+    ],
+    "grammar_note": "આવ + ઈ = આવી. Hindi uses the bare stem (आ रही); Gujarati adds -ઈ.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-004",
+    "unit": 4,
+    "gu": "અમે આવી રહ્યા છીએ.",
+    "translit_hi": "अमे आवी रह्या छीए.",
+    "en": "We are coming.",
+    "hi": "हम आ रहे हैं।",
+    "new_item": "રહ્યા",
+    "new_item_translit": "रह्या",
+    "new_item_meaning": "…-ing (progressive, plural)",
+    "new_item_form": "present progressive, plural",
+    "new_tokens": [
+      "રહ્યા"
+    ],
+    "grammar_note": "રહ્યા = रहे.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-005",
+    "unit": 4,
+    "gu": "બાળક ખાઈ રહ્યું છે.",
+    "translit_hi": "बाळक खाई रह्युं छे.",
+    "en": "The child is eating.",
+    "hi": "बच्चा खा रहा है।",
+    "new_item": "રહ્યું",
+    "new_item_translit": "रह्युं",
+    "new_item_meaning": "…-ing (progressive, neuter)",
+    "new_item_form": "present progressive, neuter",
+    "new_tokens": [
+      "રહ્યું"
+    ],
+    "grammar_note": "બાળક (child) is neuter in Gujarati → રહ્યું, a form Hindi doesn't have.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-006",
+    "unit": 4,
+    "gu": "બાળકો રમી રહ્યા છે.",
+    "translit_hi": "बाळको रमी रह्या छे.",
+    "en": "The kids are playing.",
+    "hi": "बच्चे खेल रहे हैं।",
+    "new_item": "રમી",
+    "new_item_translit": "रमी",
+    "new_item_meaning": "play (stem of રમવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "રમી"
+    ],
+    "grammar_note": "રમવું = खेलना.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-007",
+    "unit": 4,
+    "gu": "તમે શું કરી રહ્યા છો?",
+    "translit_hi": "तमे शुं करी रह्या छो?",
+    "en": "What are you doing?",
+    "hi": "आप क्या कर रहे हैं?",
+    "new_item": "કરી",
+    "new_item_translit": "करी",
+    "new_item_meaning": "do (stem of કરવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "કરી"
+    ],
+    "grammar_note": "કર + ઈ = કરી.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-008",
+    "unit": 4,
+    "gu": "હું જમી રહ્યો છું.",
+    "translit_hi": "हुं जमी रह्यो छुं.",
+    "en": "I'm having my meal.",
+    "hi": "मैं खाना खा रहा हूँ।",
+    "new_item": "જમી",
+    "new_item_translit": "जमी",
+    "new_item_meaning": "eat a meal (stem of જમવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "જમી"
+    ],
+    "grammar_note": "જમ + ઈ = જમી.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-009",
+    "unit": 4,
+    "gu": "પપ્પા ચા પી રહ્યા છે.",
+    "translit_hi": "पप्पा चा पी रह्या छे.",
+    "en": "Dad is drinking tea.",
+    "hi": "पापा चाय पी रहे हैं।",
+    "new_item": "પી",
+    "new_item_translit": "पी",
+    "new_item_meaning": "drink (stem of પીવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "પી"
+    ],
+    "grammar_note": "Stems ending in -ઈ stay as they are. Elders get the plural રહ્યા, as in पी रहे हैं.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-010",
+    "unit": 4,
+    "gu": "ભાઈ ગુજરાતી બોલી રહ્યો છે.",
+    "translit_hi": "भाई गुजराती बोली रह्यो छे.",
+    "en": "Brother is speaking Gujarati.",
+    "hi": "भाई गुजराती बोल रहा है।",
+    "new_item": "બોલી",
+    "new_item_translit": "बोली",
+    "new_item_meaning": "speak (stem of બોલવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "બોલી"
+    ],
+    "grammar_note": "બોલ + ઈ = બોલી.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-011",
+    "unit": 4,
+    "gu": "હું ગુજરાતી શીખી રહ્યો છું.",
+    "translit_hi": "हुं गुजराती शीखी रह्यो छुं.",
+    "en": "I am learning Gujarati.",
+    "hi": "मैं गुजराती सीख रहा हूँ।",
+    "new_item": "શીખી",
+    "new_item_translit": "शीखी",
+    "new_item_meaning": "learn (stem of શીખવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "શીખી"
+    ],
+    "grammar_note": "શીખવું = सीखना.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-012",
+    "unit": 4,
+    "gu": "મમ્મી રસોઈ બનાવી રહી છે.",
+    "translit_hi": "मम्मी रसोई बनावी रही छे.",
+    "en": "Mom is cooking.",
+    "hi": "मम्मी खाना बना रही है।",
+    "new_item": "બનાવી",
+    "new_item_translit": "बनावी",
+    "new_item_meaning": "make (stem of બનાવવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "બનાવી"
+    ],
+    "grammar_note": "બનાવવું = बनाना; રસોઈ બનાવવી = to cook.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-013",
+    "unit": 4,
+    "gu": "અમે ઘરે જઈ રહ્યા છીએ.",
+    "translit_hi": "अमे घरे जई रह्या छीए.",
+    "en": "We are going home.",
+    "hi": "हम घर जा रहे हैं।",
+    "new_item": "જઈ",
+    "new_item_translit": "जई",
+    "new_item_meaning": "go (stem of જવું)",
+    "new_item_form": "conjunctive stem (irregular)",
+    "new_tokens": [
+      "જઈ"
+    ],
+    "grammar_note": "જવું is irregular: its -ઈ stem is જઈ.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-014",
+    "unit": 4,
+    "gu": "બાળક સૂઈ રહ્યું છે.",
+    "translit_hi": "बाळक सूई रह्युं छे.",
+    "en": "The baby is sleeping.",
+    "hi": "बच्चा सो रहा है।",
+    "new_item": "સૂઈ",
+    "new_item_translit": "सूई",
+    "new_item_meaning": "sleep (stem of સૂવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "સૂઈ"
+    ],
+    "grammar_note": "સૂવું = सोना.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-015",
+    "unit": 4,
+    "gu": "પપ્પા હમણાં સૂઈ રહ્યા છે.",
+    "translit_hi": "पप्पा हमणां सूई रह्या छे.",
+    "en": "Dad is sleeping right now.",
+    "hi": "पापा अभी सो रहे हैं।",
+    "new_item": "હમણાં",
+    "new_item_translit": "हमणां",
+    "new_item_meaning": "right now / in a moment (Hindi अभी)",
+    "new_item_form": "adverb of time",
+    "new_tokens": [
+      "હમણાં"
+    ],
+    "grammar_note": "હમણાં = अभी; very common: હમણાં આવું છું, \"coming right away\".",
+    "needs_review": true
+  },
+  {
+    "id": "u04-016",
+    "unit": 4,
+    "gu": "હું રાહ જોઈ રહ્યો છું.",
+    "translit_hi": "हुं राह जोई रह्यो छुं.",
+    "en": "I am waiting.",
+    "hi": "मैं इंतज़ार कर रहा हूँ (राह देख रहा हूँ)।",
+    "new_item": "જોઈ",
+    "new_item_translit": "जोई",
+    "new_item_meaning": "see, look (stem of જોવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "જોઈ"
+    ],
+    "grammar_note": "જોવું = देखना; રાહ જોવી = \"to wait\" (Hindi राह देखना).",
+    "needs_review": true
+  },
+  {
+    "id": "u04-017",
+    "unit": 4,
+    "gu": "બહાર વરસાદ પડી રહ્યો છે.",
+    "translit_hi": "बहार वरसाद पडी रह्यो छे.",
+    "en": "It's raining outside.",
+    "hi": "बाहर बारिश हो रही है।",
+    "new_item": "પડી",
+    "new_item_translit": "पडी",
+    "new_item_meaning": "fall (stem of પડવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "પડી"
+    ],
+    "grammar_note": "Rain \"falls\" in Gujarati (વરસાદ પડે છે). વરસાદ is masculine → રહ્યો.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-018",
+    "unit": 4,
+    "gu": "ભાઈ શું વાંચી રહ્યો છે?",
+    "translit_hi": "भाई शुं वांची रह्यो छे?",
+    "en": "What is brother reading?",
+    "hi": "भाई क्या पढ़ रहा है?",
+    "new_item": "વાંચી",
+    "new_item_translit": "वांची",
+    "new_item_meaning": "read (stem of વાંચવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "વાંચી"
+    ],
+    "grammar_note": "વાંચવું = पढ़ना (reading text); studying is ભણવું.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-019",
+    "unit": 4,
+    "gu": "હું ગાડી ચલાવી રહ્યો છું.",
+    "translit_hi": "हुं गाडी चलावी रह्यो छुं.",
+    "en": "I'm driving.",
+    "hi": "मैं गाड़ी चला रहा हूँ।",
+    "new_item": "ચલાવી",
+    "new_item_translit": "चलावी",
+    "new_item_meaning": "drive, run (stem of ચલાવવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "ચલાવી"
+    ],
+    "grammar_note": "ચલાવવું = चलाना.",
+    "needs_review": true
+  },
+  {
+    "id": "u04-020",
+    "unit": 4,
+    "gu": "તે કેમ રડી રહી છે?",
+    "translit_hi": "ते केम रडी रही छे?",
+    "en": "Why is she crying?",
+    "hi": "वह क्यों रो रही है?",
+    "new_item": "રડી",
+    "new_item_translit": "रडी",
+    "new_item_meaning": "cry (stem of રડવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "રડી"
+    ],
+    "grammar_note": "Here કેમ means \"why\" (क्यों). રડવું = रोना.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-001",
+    "unit": 5,
+    "gu": "મારું નામ રાજ છે.",
+    "translit_hi": "मारुं नाम राज छे.",
+    "en": "My name is Raj.",
+    "hi": "मेरा नाम राज है।",
+    "new_item": "મારું",
+    "new_item_translit": "मारुं",
+    "new_item_meaning": "my (neuter)",
+    "new_item_form": "possessive, neuter singular",
+    "new_tokens": [
+      "મારું"
+    ],
+    "grammar_note": "નામ is neuter, so \"my\" is મારું. Hindi only has मेरा/मेरी.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-002",
+    "unit": 5,
+    "gu": "મારો ફોન ક્યાં છે?",
+    "translit_hi": "मारो फोन क्यां छे?",
+    "en": "Where is my phone?",
+    "hi": "मेरा फ़ोन कहाँ है?",
+    "new_item": "મારો",
+    "new_item_translit": "मारो",
+    "new_item_meaning": "my (masculine)",
+    "new_item_form": "possessive, masculine singular",
+    "new_tokens": [
+      "મારો"
+    ],
+    "grammar_note": "ફોન is masculine → મારો (= मेरा).",
+    "needs_review": true
+  },
+  {
+    "id": "u05-003",
+    "unit": 5,
+    "gu": "મારી ગાડી નવી છે.",
+    "translit_hi": "मारी गाडी नवी छे.",
+    "en": "My car is new.",
+    "hi": "मेरी गाड़ी नई है।",
+    "new_item": "મારી",
+    "new_item_translit": "मारी",
+    "new_item_meaning": "my (feminine)",
+    "new_item_form": "possessive, feminine singular",
+    "new_tokens": [
+      "મારી"
+    ],
+    "grammar_note": "ગાડી is feminine → મારી (= मेरी).",
+    "needs_review": true
+  },
+  {
+    "id": "u05-004",
+    "unit": 5,
+    "gu": "મારા પપ્પા ઘરે છે.",
+    "translit_hi": "मारा पप्पा घरे छे.",
+    "en": "My dad is at home.",
+    "hi": "मेरे पापा घर पर हैं।",
+    "new_item": "મારા",
+    "new_item_translit": "मारा",
+    "new_item_meaning": "my (plural / respectful / before a postposition)",
+    "new_item_form": "possessive, plural/oblique",
+    "new_tokens": [
+      "મારા"
+    ],
+    "grammar_note": "મારા = मेरे.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-005",
+    "unit": 5,
+    "gu": "તમારું નામ શું છે?",
+    "translit_hi": "तमारुं नाम शुं छे?",
+    "en": "What is your name?",
+    "hi": "आपका नाम क्या है?",
+    "new_item": "તમારું",
+    "new_item_translit": "तमारुं",
+    "new_item_meaning": "your (polite, neuter)",
+    "new_item_form": "possessive, neuter singular",
+    "new_tokens": [
+      "તમારું"
+    ],
+    "grammar_note": "તમારો/તમારી/તમારું/તમારા = आपका/आपकी/—/आपके.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-006",
+    "unit": 5,
+    "gu": "તારી ચા ઠંડી છે.",
+    "translit_hi": "तारी चा ठंडी छे.",
+    "en": "Your tea is cold.",
+    "hi": "तेरी चाय ठंडी है।",
+    "new_item": "તારી",
+    "new_item_translit": "तारी",
+    "new_item_meaning": "your (informal, feminine)",
+    "new_item_form": "possessive, feminine singular",
+    "new_tokens": [
+      "તારી"
+    ],
+    "grammar_note": "ચા is feminine (like चाय) → તારી.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-007",
+    "unit": 5,
+    "gu": "અમારો છોકરો સ્કૂલે છે.",
+    "translit_hi": "अमारो छोकरो स्कूले छे.",
+    "en": "Our son is at school.",
+    "hi": "हमारा बेटा स्कूल में है।",
+    "new_item": "અમારો",
+    "new_item_translit": "अमारो",
+    "new_item_meaning": "our (exclusive, masculine)",
+    "new_item_form": "possessive, masculine singular",
+    "new_tokens": [
+      "અમારો"
+    ],
+    "grammar_note": "Exclusive \"our\" (not the listener's). The inclusive one is આપણો/આપણું.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-008",
+    "unit": 5,
+    "gu": "આ રાજનું ઘર છે.",
+    "translit_hi": "आ राजनुं घर छे.",
+    "en": "This is Raj's house.",
+    "hi": "यह राज का घर है।",
+    "new_item": "-નું",
+    "new_item_translit": "-नुं",
+    "new_item_meaning": "'s, of (genitive, neuter)",
+    "new_item_form": "genitive suffix, neuter",
+    "new_tokens": [
+      "-નું"
+    ],
+    "grammar_note": "The genitive is joined to the noun: રાજ + નું. It agrees with the owned thing: -નો/-ની/-નું/-ના = का/की/—/के.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-009",
+    "unit": 5,
+    "gu": "આ સીમાની ગાડી છે.",
+    "translit_hi": "आ सीमानी गाडी छे.",
+    "en": "This is Seema's car.",
+    "hi": "यह सीमा की गाड़ी है।",
+    "new_item": "-ની",
+    "new_item_translit": "-नी",
+    "new_item_meaning": "'s, of (genitive, feminine)",
+    "new_item_form": "genitive suffix, feminine",
+    "new_tokens": [
+      "-ની"
+    ],
+    "grammar_note": "ગાડી is feminine → સીમાની (= सीमा की).",
+    "needs_review": true
+  },
+  {
+    "id": "u05-010",
+    "unit": 5,
+    "gu": "તેનો ફોન ક્યાં છે?",
+    "translit_hi": "तेनो फोन क्यां छे?",
+    "en": "Where is his/her phone?",
+    "hi": "उसका फ़ोन कहाँ है?",
+    "new_item": "-નો",
+    "new_item_translit": "-नो",
+    "new_item_meaning": "'s, of (genitive, masculine)",
+    "new_item_form": "genitive suffix, masculine",
+    "new_tokens": [
+      "-નો"
+    ],
+    "grammar_note": "તે + નો = તેનો: \"his\" or \"her\" — it agrees with ફોન, not the owner.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-011",
+    "unit": 5,
+    "gu": "ફોન રૂમમાં છે.",
+    "translit_hi": "फोन रूममां छे.",
+    "en": "The phone is in the room.",
+    "hi": "फ़ोन कमरे में है।",
+    "new_item": "-માં",
+    "new_item_translit": "-मां",
+    "new_item_meaning": "in (Hindi में)",
+    "new_item_form": "postposition suffix",
+    "new_tokens": [
+      "-માં"
+    ],
+    "grammar_note": "-માં is written joined to the noun: રૂમમાં = रूम में.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-012",
+    "unit": 5,
+    "gu": "હું ઓફિસથી આવું છું.",
+    "translit_hi": "हुं ओफिसथी आवुं छुं.",
+    "en": "I'm coming from the office.",
+    "hi": "मैं ऑफिस से आ रहा हूँ।",
+    "new_item": "-થી",
+    "new_item_translit": "-थी",
+    "new_item_meaning": "from, by, since (Hindi से)",
+    "new_item_form": "postposition suffix",
+    "new_tokens": [
+      "-થી"
+    ],
+    "grammar_note": "-થી = से. The simple present આવું છું often means \"I'm coming\".",
+    "needs_review": true
+  },
+  {
+    "id": "u05-013",
+    "unit": 5,
+    "gu": "મને ખબર નથી.",
+    "translit_hi": "मने खबर नथी.",
+    "en": "I don't know.",
+    "hi": "मुझे पता नहीं।",
+    "new_item": "મને",
+    "new_item_translit": "मने",
+    "new_item_meaning": "to me, me (Hindi मुझे)",
+    "new_item_form": "dative/accusative of હું",
+    "new_tokens": [
+      "મને"
+    ],
+    "grammar_note": "As in मुझे पता नहीं, the knower is in the dative: મને ખબર નથી.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-014",
+    "unit": 5,
+    "gu": "તમને ખબર છે?",
+    "translit_hi": "तमने खबर छे?",
+    "en": "Do you know?",
+    "hi": "क्या आपको पता है?",
+    "new_item": "તમને",
+    "new_item_translit": "तमने",
+    "new_item_meaning": "to you (Hindi आपको / तुम्हें)",
+    "new_item_form": "dative/accusative of તમે",
+    "new_tokens": [
+      "તમને"
+    ],
+    "grammar_note": "તમને = आपको.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-015",
+    "unit": 5,
+    "gu": "રાજને ખબર નથી.",
+    "translit_hi": "राजने खबर नथी.",
+    "en": "Raj doesn't know.",
+    "hi": "राज को पता नहीं।",
+    "new_item": "-ને",
+    "new_item_translit": "-ने",
+    "new_item_meaning": "to (Hindi को)",
+    "new_item_form": "postposition suffix (dative/accusative)",
+    "new_tokens": [
+      "-ને"
+    ],
+    "grammar_note": "-ને = को, joined to the noun: રાજને. (તે + ને = તેને \"to him/her\".)",
+    "needs_review": true
+  },
+  {
+    "id": "u05-016",
+    "unit": 5,
+    "gu": "ફોન ટેબલ પર છે.",
+    "translit_hi": "फोन टेबल पर छे.",
+    "en": "The phone is on the table.",
+    "hi": "फ़ोन मेज़ पर है।",
+    "new_item": "પર",
+    "new_item_translit": "पर",
+    "new_item_meaning": "on (Hindi पर)",
+    "new_item_form": "postposition",
+    "new_tokens": [
+      "પર"
+    ],
+    "grammar_note": "પર (or ઉપર) = पर; it is written as a separate word.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-017",
+    "unit": 5,
+    "gu": "તે મારી સાથે ઓફિસે આવે છે.",
+    "translit_hi": "ते मारी साथे ओफिसे आवे छे.",
+    "en": "He comes to the office with me.",
+    "hi": "वह मेरे साथ ऑफिस आता है।",
+    "new_item": "સાથે",
+    "new_item_translit": "साथे",
+    "new_item_meaning": "with, together (Hindi साथ)",
+    "new_item_form": "postposition",
+    "new_tokens": [
+      "સાથે"
+    ],
+    "grammar_note": "Gujarati says મારી સાથે (feminine \"my\") where Hindi says मेरे साथ.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-018",
+    "unit": 5,
+    "gu": "આ ચા મારા માટે છે?",
+    "translit_hi": "आ चा मारा माटे छे?",
+    "en": "Is this tea for me?",
+    "hi": "क्या यह चाय मेरे लिए है?",
+    "new_item": "માટે",
+    "new_item_translit": "माटे",
+    "new_item_meaning": "for (Hindi के लिए)",
+    "new_item_form": "postposition",
+    "new_tokens": [
+      "માટે"
+    ],
+    "grammar_note": "મારા માટે = मेरे लिए.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-019",
+    "unit": 5,
+    "gu": "દુકાન ઘરની પાસે છે.",
+    "translit_hi": "दुकान घरनी पासे छे.",
+    "en": "The shop is near the house.",
+    "hi": "दुकान घर के पास है।",
+    "new_item": "પાસે",
+    "new_item_translit": "पासे",
+    "new_item_meaning": "near; with a person: 'has'",
+    "new_item_form": "postposition",
+    "new_tokens": [
+      "પાસે"
+    ],
+    "grammar_note": "ઘરની પાસે = घर के पास — feminine -ની where Hindi has के.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-020",
+    "unit": 5,
+    "gu": "મારી પાસે છુટ્ટા પૈસા નથી.",
+    "translit_hi": "मारी पासे छुट्टा पैसा नथी.",
+    "en": "I don't have change.",
+    "hi": "मेरे पास छुट्टे पैसे नहीं हैं।",
+    "new_item": "મારી પાસે",
+    "new_item_translit": "मारी पासे",
+    "new_item_meaning": "I have (lit. near me)",
+    "new_item_form": "possession pattern: X-ની પાસે",
+    "new_tokens": [],
+    "grammar_note": "X પાસે = X के पास (to have). Again feminine: મારી પાસે vs मेरे पास.",
+    "needs_review": true
+  },
+  {
+    "id": "u05-021",
+    "unit": 5,
+    "gu": "તમારા ઘરમાં કેટલા લોકો છે?",
+    "translit_hi": "तमारा घरमां केटला लोको छे?",
+    "en": "How many people are in your home?",
+    "hi": "आपके घर में कितने लोग हैं?",
+    "new_item": "તમારા",
+    "new_item_translit": "तमारा",
+    "new_item_meaning": "your (plural / before a postposition)",
+    "new_item_form": "possessive, oblique",
+    "new_tokens": [
+      "તમારા"
+    ],
+    "grammar_note": "Before a postposition -ું/-ો become -ા: તમારું ઘર → તમારા ઘરમાં (आपके घर में).",
+    "needs_review": true
+  },
+  {
+    "id": "u06-001",
+    "unit": 6,
+    "gu": "અહીં આવ.",
+    "translit_hi": "अहीं आव.",
+    "en": "Come here.",
+    "hi": "यहाँ आ।",
+    "new_item": "આવ",
+    "new_item_translit": "आव",
+    "new_item_meaning": "come! (informal, to તું)",
+    "new_item_form": "imperative, informal (bare stem)",
+    "new_tokens": [
+      "આવ"
+    ],
+    "grammar_note": "The bare stem is the तू-imperative: આવ = आ.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-002",
+    "unit": 6,
+    "gu": "અહીં આવો.",
+    "translit_hi": "अहीं आवो.",
+    "en": "Please come here.",
+    "hi": "यहाँ आइए।",
+    "new_item": "આવો",
+    "new_item_translit": "आवो",
+    "new_item_meaning": "come! (plain, to તમે)",
+    "new_item_form": "imperative, plain/plural",
+    "new_tokens": [
+      "આવો"
+    ],
+    "grammar_note": "The -ઓ form = आओ/आइए; polite enough for almost anyone.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-003",
+    "unit": 6,
+    "gu": "અંદર આવો, બેસો.",
+    "translit_hi": "अंदर आवो, बेसो.",
+    "en": "Come in, sit down.",
+    "hi": "अंदर आइए, बैठिए।",
+    "new_item": "બેસો",
+    "new_item_translit": "बेसो",
+    "new_item_meaning": "sit! (to તમે; from બેસવું)",
+    "new_item_form": "imperative, plain",
+    "new_tokens": [
+      "બેસો"
+    ],
+    "grammar_note": "બેસવું = बैठना.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-004",
+    "unit": 6,
+    "gu": "બેસ, ચા પી.",
+    "translit_hi": "बेस, चा पी.",
+    "en": "Sit down, have some tea.",
+    "hi": "बैठ, चाय पी।",
+    "new_item": "બેસ",
+    "new_item_translit": "बेस",
+    "new_item_meaning": "sit! (informal)",
+    "new_item_form": "imperative, informal",
+    "new_tokens": [
+      "બેસ"
+    ],
+    "grammar_note": "Bare stems again: બેસ = बैठ, પી = पी.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-005",
+    "unit": 6,
+    "gu": "થોડું ખાઓ.",
+    "translit_hi": "थोडुं खाओ.",
+    "en": "Eat a little.",
+    "hi": "थोड़ा खाइए।",
+    "new_item": "ખાઓ",
+    "new_item_translit": "खाओ",
+    "new_item_meaning": "eat! (to તમે)",
+    "new_item_form": "imperative, plain",
+    "new_tokens": [
+      "ખાઓ"
+    ],
+    "grammar_note": "ખા + ઓ = ખાઓ (खाओ).",
+    "needs_review": true
+  },
+  {
+    "id": "u06-006",
+    "unit": 6,
+    "gu": "પાણી આપો.",
+    "translit_hi": "पाणी आपो.",
+    "en": "Please give (me) some water.",
+    "hi": "पानी दीजिए।",
+    "new_item": "આપો",
+    "new_item_translit": "आपो",
+    "new_item_meaning": "give! (to તમે; from આપવું)",
+    "new_item_form": "imperative, plain",
+    "new_tokens": [
+      "આપો"
+    ],
+    "grammar_note": "False friend: આપવું = देना — nothing to do with आप.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-007",
+    "unit": 6,
+    "gu": "મને પાણી આપ.",
+    "translit_hi": "मने पाणी आप.",
+    "en": "Give me water.",
+    "hi": "मुझे पानी दे।",
+    "new_item": "આપ",
+    "new_item_translit": "आप",
+    "new_item_meaning": "give! (informal)",
+    "new_item_form": "imperative, informal",
+    "new_tokens": [
+      "આપ"
+    ],
+    "grammar_note": "Bare stem આપ = दे.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-008",
+    "unit": 6,
+    "gu": "ફરી બોલો.",
+    "translit_hi": "फरी बोलो.",
+    "en": "Say it again.",
+    "hi": "फिर से बोलिए।",
+    "new_item": "ફરી",
+    "new_item_translit": "फरी",
+    "new_item_meaning": "again (Hindi फिर)",
+    "new_item_form": "adverb",
+    "new_tokens": [
+      "ફરી"
+    ],
+    "grammar_note": "The plain imperative = the તમે present form minus છો: બોલો છો → બોલો.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-009",
+    "unit": 6,
+    "gu": "હમણાં ઘરે જાઓ.",
+    "translit_hi": "हमणां घरे जाओ.",
+    "en": "Go home now.",
+    "hi": "अभी घर जाओ।",
+    "new_item": "જાઓ",
+    "new_item_translit": "जाओ",
+    "new_item_meaning": "go! (to તમે)",
+    "new_item_form": "imperative, plain",
+    "new_tokens": [
+      "જાઓ"
+    ],
+    "grammar_note": "જા + ઓ = જાઓ (जाओ). Informal: જા.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-010",
+    "unit": 6,
+    "gu": "આ જુઓ.",
+    "translit_hi": "आ जुओ.",
+    "en": "Look at this.",
+    "hi": "यह देखिए।",
+    "new_item": "જુઓ",
+    "new_item_translit": "जुओ",
+    "new_item_meaning": "look! (to તમે; from જોવું)",
+    "new_item_form": "imperative, plain (irregular)",
+    "new_tokens": [
+      "જુઓ"
+    ],
+    "grammar_note": "જોવું is irregular: જો (informal), જુઓ (plain).",
+    "needs_review": true
+  },
+  {
+    "id": "u06-011",
+    "unit": 6,
+    "gu": "જો, બાળક સૂઈ રહ્યું છે.",
+    "translit_hi": "जो, बाळक सूई रह्युं छे.",
+    "en": "Look, the baby is sleeping.",
+    "hi": "देख, बच्चा सो रहा है।",
+    "new_item": "જો",
+    "new_item_translit": "जो",
+    "new_item_meaning": "look! (informal)",
+    "new_item_form": "imperative, informal",
+    "new_tokens": [
+      "જો"
+    ],
+    "grammar_note": "જો = देख — not Hindi जो (\"who/which\").",
+    "needs_review": true
+  },
+  {
+    "id": "u06-012",
+    "unit": 6,
+    "gu": "મારી વાત સાંભળો.",
+    "translit_hi": "मारी वात सांभळो.",
+    "en": "Listen to me.",
+    "hi": "मेरी बात सुनिए।",
+    "new_item": "સાંભળો",
+    "new_item_translit": "सांभळो",
+    "new_item_meaning": "listen! (to તમે; from સાંભળવું)",
+    "new_item_form": "imperative, plain",
+    "new_tokens": [
+      "સાંભળો"
+    ],
+    "grammar_note": "સાંભળવું = सुनना (not सँभालना).",
+    "needs_review": true
+  },
+  {
+    "id": "u06-013",
+    "unit": 6,
+    "gu": "દરવાજો ખોલો.",
+    "translit_hi": "दरवाजो खोलो.",
+    "en": "Open the door.",
+    "hi": "दरवाज़ा खोलिए।",
+    "new_item": "ખોલો",
+    "new_item_translit": "खोलो",
+    "new_item_meaning": "open! (to તમે; from ખોલવું)",
+    "new_item_form": "imperative, plain",
+    "new_tokens": [
+      "ખોલો"
+    ],
+    "grammar_note": "ખોલવું = खोलना.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-014",
+    "unit": 6,
+    "gu": "લાઈટ બંધ કર.",
+    "translit_hi": "लाईट बंध कर.",
+    "en": "Turn off the light.",
+    "hi": "लाइट बंद कर।",
+    "new_item": "કર",
+    "new_item_translit": "कर",
+    "new_item_meaning": "do! (informal)",
+    "new_item_form": "imperative, informal",
+    "new_tokens": [
+      "કર"
+    ],
+    "grammar_note": "બંધ કરવું = बंद करना.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-015",
+    "unit": 6,
+    "gu": "કાલે ફોન કરજો.",
+    "translit_hi": "काले फोन करजो.",
+    "en": "Please call tomorrow.",
+    "hi": "कल फ़ोन कीजिएगा।",
+    "new_item": "કરજો",
+    "new_item_translit": "करजो",
+    "new_item_meaning": "please do (later)",
+    "new_item_form": "polite -જો imperative",
+    "new_tokens": [
+      "કરજો"
+    ],
+    "grammar_note": "-જો is the polite, \"do it later\" imperative — like Hindi कीजिएगा.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-016",
+    "unit": 6,
+    "gu": "આવજો!",
+    "translit_hi": "आवजो!",
+    "en": "Goodbye!",
+    "hi": "फिर मिलेंगे! (आइएगा!)",
+    "new_item": "આવજો",
+    "new_item_translit": "आवजो",
+    "new_item_meaning": "goodbye (lit. 'please come again')",
+    "new_item_form": "polite -જો imperative of આવવું",
+    "new_tokens": [
+      "આવજો"
+    ],
+    "grammar_note": "The everyday Gujarati goodbye is literally \"please come\".",
+    "needs_review": true
+  },
+  {
+    "id": "u06-017",
+    "unit": 6,
+    "gu": "ધ્યાન રાખજો.",
+    "translit_hi": "ध्यान राखजो.",
+    "en": "Take care.",
+    "hi": "ध्यान रखिएगा।",
+    "new_item": "રાખજો",
+    "new_item_translit": "राखजो",
+    "new_item_meaning": "please keep (from રાખવું)",
+    "new_item_form": "polite -જો imperative",
+    "new_tokens": [
+      "રાખજો"
+    ],
+    "grammar_note": "રાખવું = रखना; ધ્યાન રાખજો = \"take care\".",
+    "needs_review": true
+  },
+  {
+    "id": "u06-018",
+    "unit": 6,
+    "gu": "ચિંતા ના કરો.",
+    "translit_hi": "चिंता ना करो.",
+    "en": "Don't worry.",
+    "hi": "चिंता मत कीजिए।",
+    "new_item": "ના કરો",
+    "new_item_translit": "ना करो",
+    "new_item_meaning": "don't … (negative command)",
+    "new_item_form": "negative imperative: ના + imperative",
+    "new_tokens": [],
+    "grammar_note": "Gujarati uses ના (or ન) where Hindi uses मत: ના કરો = मत करो.",
+    "needs_review": true
+  },
+  {
+    "id": "u06-019",
+    "unit": 6,
+    "gu": "ચાલો, જમીએ!",
+    "translit_hi": "चालो, जमीए!",
+    "en": "Come on, let's eat!",
+    "hi": "चलो, खाना खाएँ!",
+    "new_item": "ચાલો",
+    "new_item_translit": "चालो",
+    "new_item_meaning": "come on, let's (Hindi चलो)",
+    "new_item_form": "hortative",
+    "new_tokens": [
+      "ચાલો"
+    ],
+    "grammar_note": "ચાલો + the \"we\" form (જમીએ) = \"let's …\".",
+    "needs_review": true
+  },
+  {
+    "id": "u07-001",
+    "unit": 7,
+    "gu": "હું કાલે આવીશ.",
+    "translit_hi": "हुं काले आवीश.",
+    "en": "I'll come tomorrow.",
+    "hi": "मैं कल आऊँगा।",
+    "new_item": "આવીશ",
+    "new_item_translit": "आवीश",
+    "new_item_meaning": "will come (with 'I')",
+    "new_item_form": "future, 1st person singular",
+    "new_tokens": [
+      "આવીશ"
+    ],
+    "grammar_note": "Future = stem + -ઈશ. No gender, unlike आऊँगा/आऊँगी. કાલે = कल.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-002",
+    "unit": 7,
+    "gu": "તે કાલે આવશે.",
+    "translit_hi": "ते काले आवशे.",
+    "en": "He/She will come tomorrow.",
+    "hi": "वह कल आएगा/आएगी।",
+    "new_item": "આવશે",
+    "new_item_translit": "आवशे",
+    "new_item_meaning": "will come (he/she/they)",
+    "new_item_form": "future, 3rd person",
+    "new_tokens": [
+      "આવશે"
+    ],
+    "grammar_note": "-શે for he/she/they — again no gender.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-003",
+    "unit": 7,
+    "gu": "અમે સાંજે આવીશું.",
+    "translit_hi": "अमे सांजे आवीशुं.",
+    "en": "We'll come in the evening.",
+    "hi": "हम शाम को आएँगे।",
+    "new_item": "આવીશું",
+    "new_item_translit": "आवीशुं",
+    "new_item_meaning": "will come (with 'we')",
+    "new_item_form": "future, 1st person plural",
+    "new_tokens": [
+      "આવીશું"
+    ],
+    "grammar_note": "\"We\" future: -ઈશું.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-004",
+    "unit": 7,
+    "gu": "તમે ક્યારે આવશો?",
+    "translit_hi": "तमे क्यारे आवशो?",
+    "en": "When will you come?",
+    "hi": "आप कब आएँगे?",
+    "new_item": "આવશો",
+    "new_item_translit": "आवशो",
+    "new_item_meaning": "will come (with તમે)",
+    "new_item_form": "future, 2nd person plural",
+    "new_tokens": [
+      "આવશો"
+    ],
+    "grammar_note": "તમે future: -શો.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-005",
+    "unit": 7,
+    "gu": "હું કાલે ઓફિસે જઈશ.",
+    "translit_hi": "हुं काले ओफिसे जईश.",
+    "en": "I'll go to the office tomorrow.",
+    "hi": "मैं कल ऑफिस जाऊँगा।",
+    "new_item": "જઈશ",
+    "new_item_translit": "जईश",
+    "new_item_meaning": "will go (with 'I')",
+    "new_item_form": "future, 1st person singular",
+    "new_tokens": [
+      "જઈશ"
+    ],
+    "grammar_note": "જવું → જઈશ.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-006",
+    "unit": 7,
+    "gu": "તે મુંબઈ જશે.",
+    "translit_hi": "ते मुंबई जशे.",
+    "en": "He/She will go to Mumbai.",
+    "hi": "वह मुंबई जाएगा/जाएगी।",
+    "new_item": "જશે",
+    "new_item_translit": "जशे",
+    "new_item_meaning": "will go (he/she/they)",
+    "new_item_form": "future, 3rd person",
+    "new_tokens": [
+      "જશે"
+    ],
+    "grammar_note": "જવું uses the short stem જ- here: જશે, જશો.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-007",
+    "unit": 7,
+    "gu": "આપણે સાથે જઈશું.",
+    "translit_hi": "आपणे साथे जईशुं.",
+    "en": "We'll go together.",
+    "hi": "हम साथ जाएँगे।",
+    "new_item": "જઈશું",
+    "new_item_translit": "जईशुं",
+    "new_item_meaning": "will go (with 'we')",
+    "new_item_form": "future, 1st person plural",
+    "new_tokens": [
+      "જઈશું"
+    ],
+    "grammar_note": "સાથે alone = \"together\".",
+    "needs_review": true
+  },
+  {
+    "id": "u07-008",
+    "unit": 7,
+    "gu": "તમે શું ખાશો?",
+    "translit_hi": "तमे शुं खाशो?",
+    "en": "What will you eat?",
+    "hi": "आप क्या खाएँगे?",
+    "new_item": "ખાશો",
+    "new_item_translit": "खाशो",
+    "new_item_meaning": "will eat (with તમે)",
+    "new_item_form": "future, 2nd person plural",
+    "new_tokens": [
+      "ખાશો"
+    ],
+    "grammar_note": "Vowel stems add the ending directly: ખા + શો.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-009",
+    "unit": 7,
+    "gu": "હું ચા પીશ.",
+    "translit_hi": "हुं चा पीश.",
+    "en": "I'll have tea.",
+    "hi": "मैं चाय पियूँगा।",
+    "new_item": "પીશ",
+    "new_item_translit": "पीश",
+    "new_item_meaning": "will drink (with 'I')",
+    "new_item_form": "future, 1st person singular",
+    "new_tokens": [
+      "પીશ"
+    ],
+    "grammar_note": "Stems in -ઈ just add -શ: પી → પીશ.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-010",
+    "unit": 7,
+    "gu": "હું તમને ફોન કરીશ.",
+    "translit_hi": "हुं तमने फोन करीश.",
+    "en": "I'll call you.",
+    "hi": "मैं आपको फ़ोन करूँगा।",
+    "new_item": "કરીશ",
+    "new_item_translit": "करीश",
+    "new_item_meaning": "will do (with 'I')",
+    "new_item_form": "future, 1st person singular",
+    "new_tokens": [
+      "કરીશ"
+    ],
+    "grammar_note": "ફોન કરવો = फ़ोन करना.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-011",
+    "unit": 7,
+    "gu": "મમ્મી રસોઈ બનાવશે.",
+    "translit_hi": "मम्मी रसोई बनावशे.",
+    "en": "Mom will cook.",
+    "hi": "मम्मी खाना बनाएगी।",
+    "new_item": "બનાવશે",
+    "new_item_translit": "बनावशे",
+    "new_item_meaning": "will make (he/she)",
+    "new_item_form": "future, 3rd person",
+    "new_tokens": [
+      "બનાવશે"
+    ],
+    "grammar_note": "બનાવ + શે.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-012",
+    "unit": 7,
+    "gu": "કાલે વરસાદ પડશે.",
+    "translit_hi": "काले वरसाद पडशे.",
+    "en": "It will rain tomorrow.",
+    "hi": "कल बारिश होगी।",
+    "new_item": "પડશે",
+    "new_item_translit": "पडशे",
+    "new_item_meaning": "will fall",
+    "new_item_form": "future, 3rd person",
+    "new_tokens": [
+      "પડશે"
+    ],
+    "grammar_note": "Hindi says बारिश होगी; Gujarati says rain \"will fall\".",
+    "needs_review": true
+  },
+  {
+    "id": "u07-013",
+    "unit": 7,
+    "gu": "હું કાલે નહીં આવું.",
+    "translit_hi": "हुं काले नहीं आवुं.",
+    "en": "I won't come tomorrow.",
+    "hi": "मैं कल नहीं आऊँगा।",
+    "new_item": "નહીં આવું",
+    "new_item_translit": "नहीं आवुं",
+    "new_item_meaning": "won't come (negative future)",
+    "new_item_form": "negative future: નહીં + subjunctive",
+    "new_tokens": [],
+    "grammar_note": "The negative future usually drops -ઈશ: નહીં આવું rather than નહીં આવીશ.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-014",
+    "unit": 7,
+    "gu": "શું તે આ કામ કરશે?",
+    "translit_hi": "शुं ते आ काम करशे?",
+    "en": "Will he do this work?",
+    "hi": "क्या वह यह काम करेगा?",
+    "new_item": "કરશે",
+    "new_item_translit": "करशे",
+    "new_item_meaning": "will do (he/she)",
+    "new_item_form": "future, 3rd person",
+    "new_tokens": [
+      "કરશે"
+    ],
+    "grammar_note": "કર + શે.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-015",
+    "unit": 7,
+    "gu": "હું તમને કહીશ.",
+    "translit_hi": "हुं तमने कहीश.",
+    "en": "I'll tell you.",
+    "hi": "मैं आपको बताऊँगा।",
+    "new_item": "કહીશ",
+    "new_item_translit": "कहीश",
+    "new_item_meaning": "will tell (with 'I'; from કહેવું)",
+    "new_item_form": "future, 1st person singular",
+    "new_tokens": [
+      "કહીશ"
+    ],
+    "grammar_note": "કહેવું = कहना / बताना.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-016",
+    "unit": 7,
+    "gu": "બધું ઠીક થઈ જશે.",
+    "translit_hi": "बधुं ठीक थई जशे.",
+    "en": "Everything will be fine.",
+    "hi": "सब ठीक हो जाएगा।",
+    "new_item": "થઈ",
+    "new_item_translit": "थई",
+    "new_item_meaning": "become (stem of થવું)",
+    "new_item_form": "conjunctive stem",
+    "new_tokens": [
+      "થઈ"
+    ],
+    "grammar_note": "થવું = होना (to become). થઈ જશે = हो जाएगा.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-017",
+    "unit": 7,
+    "gu": "તે કેટલા વાગે આવશે?",
+    "translit_hi": "ते केटला वागे आवशे?",
+    "en": "What time will he come?",
+    "hi": "वह कितने बजे आएगा?",
+    "new_item": "વાગે",
+    "new_item_translit": "वागे",
+    "new_item_meaning": "o'clock (Hindi बजे)",
+    "new_item_form": "time expression",
+    "new_tokens": [
+      "વાગે"
+    ],
+    "grammar_note": "કેટલા વાગે = कितने बजे.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-018",
+    "unit": 7,
+    "gu": "હું પાંચ વાગે ઘરે પહોંચીશ.",
+    "translit_hi": "हुं पांच वागे घरे पहोंचीश.",
+    "en": "I'll reach home at five.",
+    "hi": "मैं पाँच बजे घर पहुँचूँगा।",
+    "new_item": "પહોંચીશ",
+    "new_item_translit": "पहोंचीश",
+    "new_item_meaning": "will reach (with 'I')",
+    "new_item_form": "future, 1st person singular",
+    "new_tokens": [
+      "પહોંચીશ"
+    ],
+    "grammar_note": "પહોંચવું = पहुँचना.",
+    "needs_review": true
+  },
+  {
+    "id": "u07-019",
+    "unit": 7,
+    "gu": "તમે ક્યારે પાછા આવશો?",
+    "translit_hi": "तमे क्यारे पाछा आवशो?",
+    "en": "When will you come back?",
+    "hi": "आप कब वापस आएँगे?",
+    "new_item": "પાછા",
+    "new_item_translit": "पाछा",
+    "new_item_meaning": "back (agrees: પાછો/પાછી/પાછા)",
+    "new_item_form": "adverb agreeing with the subject",
+    "new_tokens": [
+      "પાછા"
+    ],
+    "grammar_note": "પાછા આવવું = वापस आना. It agrees with the subject: તે પાછો આવશે / તે પાછી આવશે.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-001",
+    "unit": 8,
+    "gu": "હું કાલે ઘરે હતો.",
+    "translit_hi": "हुं काले घरे हतो.",
+    "en": "I was at home yesterday.",
+    "hi": "मैं कल घर पर था।",
+    "new_item": "હતો",
+    "new_item_translit": "हतो",
+    "new_item_meaning": "was (masculine)",
+    "new_item_form": "past of 'to be', masculine singular",
+    "new_tokens": [
+      "હતો"
+    ],
+    "grammar_note": "હતો/હતી/હતું/હતા = था/थी/—/थे. કાલે = कल, both yesterday and tomorrow.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-002",
+    "unit": 8,
+    "gu": "મમ્મી બજારમાં હતી.",
+    "translit_hi": "मम्मी बजारमां हती.",
+    "en": "Mom was at the market.",
+    "hi": "मम्मी बाज़ार में थी।",
+    "new_item": "હતી",
+    "new_item_translit": "हती",
+    "new_item_meaning": "was (feminine)",
+    "new_item_form": "past of 'to be', feminine",
+    "new_tokens": [
+      "હતી"
+    ],
+    "grammar_note": "હતી = थी.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-003",
+    "unit": 8,
+    "gu": "ઘર બહુ સુંદર હતું.",
+    "translit_hi": "घर बहु सुंदर हतुं.",
+    "en": "The house was very beautiful.",
+    "hi": "घर बहुत सुंदर था।",
+    "new_item": "હતું",
+    "new_item_translit": "हतुं",
+    "new_item_meaning": "was (neuter)",
+    "new_item_form": "past of 'to be', neuter",
+    "new_tokens": [
+      "હતું"
+    ],
+    "grammar_note": "Neuter ઘર → હતું. Hindi has no neuter, so it says था.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-004",
+    "unit": 8,
+    "gu": "અમે ત્યાં હતા.",
+    "translit_hi": "अमे त्यां हता.",
+    "en": "We were there.",
+    "hi": "हम वहाँ थे।",
+    "new_item": "હતા",
+    "new_item_translit": "हता",
+    "new_item_meaning": "were (plural)",
+    "new_item_form": "past of 'to be', plural",
+    "new_tokens": [
+      "હતા"
+    ],
+    "grammar_note": "હતા = थे.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-005",
+    "unit": 8,
+    "gu": "હું ઓફિસે ગયો.",
+    "translit_hi": "हुं ओफिसे गयो.",
+    "en": "I went to the office.",
+    "hi": "मैं ऑफिस गया।",
+    "new_item": "ગયો",
+    "new_item_translit": "गयो",
+    "new_item_meaning": "went (masculine)",
+    "new_item_form": "past of જવું, masculine singular",
+    "new_tokens": [
+      "ગયો"
+    ],
+    "grammar_note": "Intransitive past agrees with the subject, like गया/गई.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-006",
+    "unit": 8,
+    "gu": "તે બજારમાં ગઈ.",
+    "translit_hi": "ते बजारमां गई.",
+    "en": "She went to the market.",
+    "hi": "वह बाज़ार गई।",
+    "new_item": "ગઈ",
+    "new_item_translit": "गई",
+    "new_item_meaning": "went (feminine)",
+    "new_item_form": "past of જવું, feminine",
+    "new_tokens": [
+      "ગઈ"
+    ],
+    "grammar_note": "ગઈ = गई.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-007",
+    "unit": 8,
+    "gu": "બાળક સ્કૂલે ગયું.",
+    "translit_hi": "बाळक स्कूले गयुं.",
+    "en": "The child went to school.",
+    "hi": "बच्चा स्कूल गया।",
+    "new_item": "ગયું",
+    "new_item_translit": "गयुं",
+    "new_item_meaning": "went (neuter)",
+    "new_item_form": "past of જવું, neuter",
+    "new_tokens": [
+      "ગયું"
+    ],
+    "grammar_note": "બાળક is neuter → ગયું. Hindi has to pick गया.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-008",
+    "unit": 8,
+    "gu": "એ લોકો મુંબઈ ગયા.",
+    "translit_hi": "ए लोको मुंबई गया.",
+    "en": "They went to Mumbai.",
+    "hi": "वे लोग मुंबई गए।",
+    "new_item": "ગયા",
+    "new_item_translit": "गया",
+    "new_item_meaning": "went (plural)",
+    "new_item_form": "past of જવું, plural",
+    "new_tokens": [
+      "ગયા"
+    ],
+    "grammar_note": "એ લોકો = \"those people\", the colloquial \"they\".",
+    "needs_review": true
+  },
+  {
+    "id": "u08-009",
+    "unit": 8,
+    "gu": "ભાઈ કાલે આવ્યો.",
+    "translit_hi": "भाई काले आव्यो.",
+    "en": "Brother came yesterday.",
+    "hi": "भाई कल आया।",
+    "new_item": "આવ્યો",
+    "new_item_translit": "आव्यो",
+    "new_item_meaning": "came (masculine)",
+    "new_item_form": "past of આવવું, masculine singular",
+    "new_tokens": [
+      "આવ્યો"
+    ],
+    "grammar_note": "Regular past: stem + -યો/-ી/-યું/-યા → આવ્યો, આવી, આવ્યું, આવ્યા.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-010",
+    "unit": 8,
+    "gu": "મારી બહેન મોડી આવી.",
+    "translit_hi": "मारी बहेन मोडी आवी.",
+    "en": "My sister came late.",
+    "hi": "मेरी बहन देर से आई।",
+    "new_item": "મોડી",
+    "new_item_translit": "मोडी",
+    "new_item_meaning": "late (feminine; agrees with the subject)",
+    "new_item_form": "adjective, feminine",
+    "new_tokens": [
+      "મોડી"
+    ],
+    "grammar_note": "\"Late\" agrees: મોડો/મોડી/મોડું. Here આવી = \"came (f.)\".",
+    "needs_review": true
+  },
+  {
+    "id": "u08-011",
+    "unit": 8,
+    "gu": "તમે ક્યારે આવ્યા?",
+    "translit_hi": "तमे क्यारे आव्या?",
+    "en": "When did you come?",
+    "hi": "आप कब आए?",
+    "new_item": "આવ્યા",
+    "new_item_translit": "आव्या",
+    "new_item_meaning": "came (plural / with તમે)",
+    "new_item_form": "past of આવવું, plural",
+    "new_tokens": [
+      "આવ્યા"
+    ],
+    "grammar_note": "આવ્યા = आए.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-012",
+    "unit": 8,
+    "gu": "શું થયું?",
+    "translit_hi": "शुं थयुं?",
+    "en": "What happened?",
+    "hi": "क्या हुआ?",
+    "new_item": "થયું",
+    "new_item_translit": "थयुं",
+    "new_item_meaning": "happened, became (neuter)",
+    "new_item_form": "past of થવું, neuter",
+    "new_tokens": [
+      "થયું"
+    ],
+    "grammar_note": "થવું = होना; \"what happened\" is neuter થયું (Hindi हुआ). Also: મોડું થયું = \"it got late\".",
+    "needs_review": true
+  },
+  {
+    "id": "u08-013",
+    "unit": 8,
+    "gu": "તે ખુરશી પર બેઠો.",
+    "translit_hi": "ते खुरशी पर बेठो.",
+    "en": "He sat on the chair.",
+    "hi": "वह कुर्सी पर बैठा।",
+    "new_item": "બેઠો",
+    "new_item_translit": "बेठो",
+    "new_item_meaning": "sat (masculine; past of બેસવું)",
+    "new_item_form": "past, masculine singular (irregular)",
+    "new_tokens": [
+      "બેઠો"
+    ],
+    "grammar_note": "બેસવું → બેઠો/બેઠી (बैठा/बैठी).",
+    "needs_review": true
+  },
+  {
+    "id": "u08-014",
+    "unit": 8,
+    "gu": "તે ક્યારે ઊઠ્યો?",
+    "translit_hi": "ते क्यारे ऊठ्यो?",
+    "en": "When did he get up?",
+    "hi": "वह कब उठा?",
+    "new_item": "ઊઠ્યો",
+    "new_item_translit": "ऊठ्यो",
+    "new_item_meaning": "got up (masculine; past of ઊઠવું)",
+    "new_item_form": "past, masculine singular",
+    "new_tokens": [
+      "ઊઠ્યો"
+    ],
+    "grammar_note": "ઊઠવું = उठना.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-015",
+    "unit": 8,
+    "gu": "હું આજે વહેલો ઊઠ્યો.",
+    "translit_hi": "हुं आजे वहेलो ऊठ्यो.",
+    "en": "I got up early today.",
+    "hi": "मैं आज जल्दी उठा।",
+    "new_item": "વહેલો",
+    "new_item_translit": "वहेलो",
+    "new_item_meaning": "early (masculine; agrees)",
+    "new_item_form": "adjective, masculine",
+    "new_tokens": [
+      "વહેલો"
+    ],
+    "grammar_note": "વહેલો/વહેલી/વહેલું — \"early\" agrees, like મોડો (late).",
+    "needs_review": true
+  },
+  {
+    "id": "u08-016",
+    "unit": 8,
+    "gu": "હું થાકી ગયો.",
+    "translit_hi": "हुं थाकी गयो.",
+    "en": "I got tired.",
+    "hi": "मैं थक गया।",
+    "new_item": "થાકી",
+    "new_item_translit": "थाकी",
+    "new_item_meaning": "tire (stem of થાકવું)",
+    "new_item_form": "compound verb: stem + ગયો",
+    "new_tokens": [
+      "થાકી"
+    ],
+    "grammar_note": "Compound with જવું for a completed change, exactly like थक गया.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-017",
+    "unit": 8,
+    "gu": "તમે ક્યાં ગયા હતા?",
+    "translit_hi": "तमे क्यां गया हता?",
+    "en": "Where had you gone?",
+    "hi": "आप कहाँ गए थे?",
+    "new_item": "ગયા હતા",
+    "new_item_translit": "गया हता",
+    "new_item_meaning": "had gone",
+    "new_item_form": "past perfect: participle + હતો/હતી/હતા",
+    "new_tokens": [],
+    "grammar_note": "ગયા હતા = गए थे.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-018",
+    "unit": 8,
+    "gu": "તે હમણાં જ આવ્યો છે.",
+    "translit_hi": "ते हमणां ज आव्यो छे.",
+    "en": "He has just arrived.",
+    "hi": "वह अभी-अभी आया है।",
+    "new_item": "જ",
+    "new_item_translit": "ज",
+    "new_item_meaning": "just, only, indeed (Hindi ही)",
+    "new_item_form": "emphatic particle",
+    "new_tokens": [
+      "જ"
+    ],
+    "grammar_note": "જ = ही. Also: આવ્યો છે = present perfect (आया है).",
+    "needs_review": true
+  },
+  {
+    "id": "u08-019",
+    "unit": 8,
+    "gu": "મારો ફોન બગડી ગયો.",
+    "translit_hi": "मारो फोन बगडी गयो.",
+    "en": "My phone broke.",
+    "hi": "मेरा फ़ोन ख़राब हो गया।",
+    "new_item": "બગડી",
+    "new_item_translit": "बगडी",
+    "new_item_meaning": "go bad, break (stem of બગડવું)",
+    "new_item_form": "compound verb: stem + ગયો",
+    "new_tokens": [
+      "બગડી"
+    ],
+    "grammar_note": "બગડવું = बिगड़ना.",
+    "needs_review": true
+  },
+  {
+    "id": "u08-020",
+    "unit": 8,
+    "gu": "હું ભૂલી ગયો.",
+    "translit_hi": "हुं भूली गयो.",
+    "en": "I forgot.",
+    "hi": "मैं भूल गया।",
+    "new_item": "ભૂલી",
+    "new_item_translit": "भूली",
+    "new_item_meaning": "forget (stem of ભૂલવું)",
+    "new_item_form": "compound verb: stem + ગયો",
+    "new_tokens": [
+      "ભૂલી"
+    ],
+    "grammar_note": "Intransitive in both languages: હું ભૂલી ગયો = मैं भूल गया (no ergative).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-001",
+    "unit": 9,
+    "gu": "મેં વાત કરી.",
+    "translit_hi": "में वात करी.",
+    "en": "I talked (to them).",
+    "hi": "मैंने बात की।",
+    "new_item": "મેં",
+    "new_item_translit": "में",
+    "new_item_meaning": "I (ergative; Hindi मैंने)",
+    "new_item_form": "ergative pronoun",
+    "new_tokens": [
+      "મેં"
+    ],
+    "grammar_note": "Past transitive verbs need the ergative: મેં = मैंने. The verb agrees with the object: વાત (f.) → કરી.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-002",
+    "unit": 9,
+    "gu": "મેં ચા પીધી.",
+    "translit_hi": "में चा पीधी.",
+    "en": "I drank tea.",
+    "hi": "मैंने चाय पी।",
+    "new_item": "પીધી",
+    "new_item_translit": "पीधी",
+    "new_item_meaning": "drank (feminine object)",
+    "new_item_form": "past transitive, feminine",
+    "new_tokens": [
+      "પીધી"
+    ],
+    "grammar_note": "ચા is feminine → પીધી (पी).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-003",
+    "unit": 9,
+    "gu": "મેં પાણી પીધું.",
+    "translit_hi": "में पाणी पीधुं.",
+    "en": "I drank water.",
+    "hi": "मैंने पानी पिया।",
+    "new_item": "પીધું",
+    "new_item_translit": "पीधुं",
+    "new_item_meaning": "drank (neuter object)",
+    "new_item_form": "past transitive, neuter",
+    "new_tokens": [
+      "પીધું"
+    ],
+    "grammar_note": "પાણી is neuter → પીધું. Hindi uses masculine पिया.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-004",
+    "unit": 9,
+    "gu": "મેં રોટલી ખાધી.",
+    "translit_hi": "में रोटली खाधी.",
+    "en": "I ate a roti.",
+    "hi": "मैंने रोटी खाई।",
+    "new_item": "ખાધી",
+    "new_item_translit": "खाधी",
+    "new_item_meaning": "ate (feminine object)",
+    "new_item_form": "past transitive, feminine",
+    "new_tokens": [
+      "ખાધી"
+    ],
+    "grammar_note": "રોટલી (f.) → ખાધી (खाई).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-005",
+    "unit": 9,
+    "gu": "તેણે ચા પીધી.",
+    "translit_hi": "तेणे चा पीधी.",
+    "en": "He/She drank tea.",
+    "hi": "उसने चाय पी।",
+    "new_item": "તેણે",
+    "new_item_translit": "तेणे",
+    "new_item_meaning": "he/she (ergative; Hindi उसने)",
+    "new_item_form": "ergative pronoun",
+    "new_tokens": [
+      "તેણે"
+    ],
+    "grammar_note": "તે → તેણે (उसने), the same for he and she.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-006",
+    "unit": 9,
+    "gu": "મેં ભાત ખાધો.",
+    "translit_hi": "में भात खाधो.",
+    "en": "I ate rice.",
+    "hi": "मैंने भात खाया।",
+    "new_item": "ખાધો",
+    "new_item_translit": "खाधो",
+    "new_item_meaning": "ate (masculine object)",
+    "new_item_form": "past transitive, masculine",
+    "new_tokens": [
+      "ખાધો"
+    ],
+    "grammar_note": "ભાત is masculine → ખાધો.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-007",
+    "unit": 9,
+    "gu": "તમે ખાધું?",
+    "translit_hi": "तमे खाधुं?",
+    "en": "Did you eat?",
+    "hi": "आपने खाया?",
+    "new_item": "ખાધું",
+    "new_item_translit": "खाधुं",
+    "new_item_meaning": "ate (neuter / default)",
+    "new_item_form": "past transitive, neuter",
+    "new_tokens": [
+      "ખાધું"
+    ],
+    "grammar_note": "With no object, Gujarati defaults to neuter -ું (Hindi: masculine खाया). તમે doesn't change (Hindi आपने).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-008",
+    "unit": 9,
+    "gu": "મેં કામ કર્યું.",
+    "translit_hi": "में काम कर्युं.",
+    "en": "I did the work.",
+    "hi": "मैंने काम किया।",
+    "new_item": "કર્યું",
+    "new_item_translit": "कर्युं",
+    "new_item_meaning": "did (neuter object)",
+    "new_item_form": "past transitive, neuter",
+    "new_tokens": [
+      "કર્યું"
+    ],
+    "grammar_note": "કામ is neuter → કર્યું.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-009",
+    "unit": 9,
+    "gu": "મેં તમને ફોન કર્યો.",
+    "translit_hi": "में तमने फोन कर्यो.",
+    "en": "I called you.",
+    "hi": "मैंने आपको फ़ोन किया।",
+    "new_item": "કર્યો",
+    "new_item_translit": "कर्यो",
+    "new_item_meaning": "did (masculine object)",
+    "new_item_form": "past transitive, masculine",
+    "new_tokens": [
+      "કર્યો"
+    ],
+    "grammar_note": "ફોન is masculine → કર્યો.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-010",
+    "unit": 9,
+    "gu": "તમે શું કહ્યું?",
+    "translit_hi": "तमे शुं कह्युं?",
+    "en": "What did you say?",
+    "hi": "आपने क्या कहा?",
+    "new_item": "કહ્યું",
+    "new_item_translit": "कह्युं",
+    "new_item_meaning": "said (neuter)",
+    "new_item_form": "past transitive, neuter",
+    "new_tokens": [
+      "કહ્યું"
+    ],
+    "grammar_note": "કહેવું → કહ્યું (कहा).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-011",
+    "unit": 9,
+    "gu": "તેં શું કર્યું?",
+    "translit_hi": "तें शुं कर्युं?",
+    "en": "What did you do? (informal)",
+    "hi": "तूने क्या किया?",
+    "new_item": "તેં",
+    "new_item_translit": "तें",
+    "new_item_meaning": "you (informal ergative; Hindi तूने)",
+    "new_item_form": "ergative pronoun",
+    "new_tokens": [
+      "તેં"
+    ],
+    "grammar_note": "Don't mix up તેં (you did) with તે (he/she).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-012",
+    "unit": 9,
+    "gu": "અમે ટીવી પર ફિલ્મ જોઈ.",
+    "translit_hi": "अमे टीवी पर फिल्म जोई.",
+    "en": "We watched a film on TV.",
+    "hi": "हमने टीवी पर फ़िल्म देखी।",
+    "new_item": "અમે (ergative)",
+    "new_item_translit": "अमे (ergative)",
+    "new_item_meaning": "we (ergative — same form)",
+    "new_item_form": "ergative of અમે (unchanged)",
+    "new_tokens": [],
+    "grammar_note": "અમે, આપણે and તમે don't change in the ergative (Hindi हमने, आपने). ફિલ્મ (f.) → જોઈ.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-013",
+    "unit": 9,
+    "gu": "મેં તેને જોયો.",
+    "translit_hi": "में तेने जोयो.",
+    "en": "I saw him.",
+    "hi": "मैंने उसे देखा।",
+    "new_item": "જોયો",
+    "new_item_translit": "जोयो",
+    "new_item_meaning": "saw (masculine object)",
+    "new_item_form": "past transitive, masculine",
+    "new_tokens": [
+      "જોયો"
+    ],
+    "grammar_note": "Unlike Hindi, the verb can still agree with a -ને object: જોયો (him) / જોઈ (her).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-014",
+    "unit": 9,
+    "gu": "મેં નવો ફોન લીધો.",
+    "translit_hi": "में नवो फोन लीधो.",
+    "en": "I bought a new phone.",
+    "hi": "मैंने नया फ़ोन लिया।",
+    "new_item": "લીધો",
+    "new_item_translit": "लीधो",
+    "new_item_meaning": "took, got (masculine; past of લેવું)",
+    "new_item_form": "past transitive, masculine (irregular)",
+    "new_tokens": [
+      "લીધો"
+    ],
+    "grammar_note": "લેવું → લીધો/લીધી/લીધું (लिया/ली).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-015",
+    "unit": 9,
+    "gu": "મમ્મીએ રસોઈ બનાવી.",
+    "translit_hi": "मम्मीए रसोई बनावी.",
+    "en": "Mom cooked.",
+    "hi": "मम्मी ने खाना बनाया।",
+    "new_item": "-એ",
+    "new_item_translit": "-ए",
+    "new_item_meaning": "ergative suffix on nouns (Hindi ने)",
+    "new_item_form": "ergative case suffix",
+    "new_tokens": [],
+    "grammar_note": "Nouns take -એ as the ergative: મમ્મીએ = मम्मी ने. રસોઈ (f.) → બનાવી.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-016",
+    "unit": 9,
+    "gu": "પપ્પાએ પૈસા આપ્યા.",
+    "translit_hi": "पप्पाए पैसा आप्या.",
+    "en": "Dad gave the money.",
+    "hi": "पापा ने पैसे दिए।",
+    "new_item": "આપ્યા",
+    "new_item_translit": "आप्या",
+    "new_item_meaning": "gave (plural object)",
+    "new_item_form": "past transitive, plural",
+    "new_tokens": [
+      "આપ્યા"
+    ],
+    "grammar_note": "પૈસા is plural → આપ્યા (दिए).",
+    "needs_review": true
+  },
+  {
+    "id": "u09-017",
+    "unit": 9,
+    "gu": "તેણે મને કંઈ કહ્યું નહીં.",
+    "translit_hi": "तेणे मने कंई कह्युं नहीं.",
+    "en": "He didn't tell me anything.",
+    "hi": "उसने मुझे कुछ नहीं बताया।",
+    "new_item": "કહ્યું નહીં",
+    "new_item_translit": "कह्युं नहीं",
+    "new_item_meaning": "didn't (negative past)",
+    "new_item_form": "negative past: verb + નહીં",
+    "new_tokens": [],
+    "grammar_note": "Past negatives use નહીં (often after the verb), never નથી.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-018",
+    "unit": 9,
+    "gu": "મેં ગુજરાતીમાં મેસેજ લખ્યો.",
+    "translit_hi": "में गुजरातीमां मेसेज लख्यो.",
+    "en": "I wrote a message in Gujarati.",
+    "hi": "मैंने गुजराती में मैसेज लिखा।",
+    "new_item": "લખ્યો",
+    "new_item_translit": "लख्यो",
+    "new_item_meaning": "wrote (masculine object)",
+    "new_item_form": "past transitive, masculine",
+    "new_tokens": [
+      "લખ્યો"
+    ],
+    "grammar_note": "લખવું = लिखना; મેસેજ is masculine → લખ્યો.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-019",
+    "unit": 9,
+    "gu": "તેણે ના પાડી.",
+    "translit_hi": "तेणे ना पाडी.",
+    "en": "He/She refused.",
+    "hi": "उसने मना कर दिया।",
+    "new_item": "પાડી",
+    "new_item_translit": "पाडी",
+    "new_item_meaning": "said no (ના પાડવી = to refuse)",
+    "new_item_form": "past transitive, feminine",
+    "new_tokens": [
+      "પાડી"
+    ],
+    "grammar_note": "ના પાડવી = मना करना; ના is treated as feminine → પાડી.",
+    "needs_review": true
+  },
+  {
+    "id": "u09-020",
+    "unit": 9,
+    "gu": "મેં તેને પૂછ્યું.",
+    "translit_hi": "में तेने पूछ्युं.",
+    "en": "I asked him/her.",
+    "hi": "मैंने उससे पूछा।",
+    "new_item": "પૂછ્યું",
+    "new_item_translit": "पूछ्युं",
+    "new_item_meaning": "asked (neuter / default)",
+    "new_item_form": "past transitive, neuter",
+    "new_tokens": [
+      "પૂછ્યું"
+    ],
+    "grammar_note": "Gujarati asks \"to\" someone with -ને (તેને પૂછ્યું) where Hindi uses से.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-001",
+    "unit": 10,
+    "gu": "મારે થોડું કામ છે.",
+    "translit_hi": "मारे थोडुं काम छे.",
+    "en": "I have something to do.",
+    "hi": "मुझे थोड़ा काम है।",
+    "new_item": "મારે",
+    "new_item_translit": "मारे",
+    "new_item_meaning": "for me — I need / I have to (Hindi मुझे)",
+    "new_item_form": "dative of need/obligation",
+    "new_tokens": [
+      "મારે"
+    ],
+    "grammar_note": "મારે is the \"I must / I want\" form of હું — different from મને.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-002",
+    "unit": 10,
+    "gu": "મારે ઘરે જવું છે.",
+    "translit_hi": "मारे घरे जवुं छे.",
+    "en": "I want to go home.",
+    "hi": "मुझे घर जाना है।",
+    "new_item": "જવું",
+    "new_item_translit": "जवुं",
+    "new_item_meaning": "to go (infinitive)",
+    "new_item_form": "infinitive (-વું)",
+    "new_tokens": [
+      "જવું"
+    ],
+    "grammar_note": "મારે + infinitive + છે = मुझे … जाना है (I want to).",
+    "needs_review": true
+  },
+  {
+    "id": "u10-003",
+    "unit": 10,
+    "gu": "મારે ચા પીવી છે.",
+    "translit_hi": "मारे चा पीवी छे.",
+    "en": "I want to drink tea.",
+    "hi": "मुझे चाय पीनी है।",
+    "new_item": "પીવી",
+    "new_item_translit": "पीवी",
+    "new_item_meaning": "to drink (infinitive, feminine)",
+    "new_item_form": "infinitive agreeing with a feminine object",
+    "new_tokens": [
+      "પીવી"
+    ],
+    "grammar_note": "The infinitive agrees with the object: ચા (f.) → પીવી, like Hindi चाय पीनी है.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-004",
+    "unit": 10,
+    "gu": "મારે પાણી પીવું છે.",
+    "translit_hi": "मारे पाणी पीवुं छे.",
+    "en": "I want to drink water.",
+    "hi": "मुझे पानी पीना है।",
+    "new_item": "પીવું",
+    "new_item_translit": "पीवुं",
+    "new_item_meaning": "to drink (infinitive, neuter)",
+    "new_item_form": "infinitive agreeing with a neuter object",
+    "new_tokens": [
+      "પીવું"
+    ],
+    "grammar_note": "પાણી (n.) → પીવું.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-005",
+    "unit": 10,
+    "gu": "તમારે ક્યાં જવું છે?",
+    "translit_hi": "तमारे क्यां जवुं छे?",
+    "en": "Where do you want to go?",
+    "hi": "आपको कहाँ जाना है?",
+    "new_item": "તમારે",
+    "new_item_translit": "तमारे",
+    "new_item_meaning": "for you — you need / want to",
+    "new_item_form": "dative of need/obligation",
+    "new_tokens": [
+      "તમારે"
+    ],
+    "grammar_note": "Every auto-rickshaw driver's question. તમારે = आपको.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-006",
+    "unit": 10,
+    "gu": "મારે જવું પડશે.",
+    "translit_hi": "मारे जवुं पडशे.",
+    "en": "I'll have to go.",
+    "hi": "मुझे जाना पड़ेगा।",
+    "new_item": "જવું પડશે",
+    "new_item_translit": "जवुं पडशे",
+    "new_item_meaning": "will have to go",
+    "new_item_form": "obligation: infinitive + પડશે",
+    "new_tokens": [],
+    "grammar_note": "Infinitive + પડવું = \"have to\", exactly like जाना पड़ेगा.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-007",
+    "unit": 10,
+    "gu": "મારે રોજ ઓફિસે જવું પડે છે.",
+    "translit_hi": "मारे रोज ओफिसे जवुं पडे छे.",
+    "en": "I have to go to the office every day.",
+    "hi": "मुझे रोज़ ऑफिस जाना पड़ता है।",
+    "new_item": "પડે",
+    "new_item_translit": "पडे",
+    "new_item_meaning": "have to (habitual; from પડવું)",
+    "new_item_form": "obligation, simple present",
+    "new_tokens": [
+      "પડે"
+    ],
+    "grammar_note": "જવું પડે છે = जाना पड़ता है.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-008",
+    "unit": 10,
+    "gu": "મારે કાલે મુંબઈ જવાનું છે.",
+    "translit_hi": "मारे काले मुंबई जवानुं छे.",
+    "en": "I'm supposed to go to Mumbai tomorrow.",
+    "hi": "मुझे कल मुंबई जाना है।",
+    "new_item": "જવાનું",
+    "new_item_translit": "जवानुं",
+    "new_item_meaning": "(am) to go — a plan or duty",
+    "new_item_form": "-વાનું form (planned obligation)",
+    "new_tokens": [
+      "જવાનું"
+    ],
+    "grammar_note": "-વાનું છે is for plans and duties: \"I'm to go\". Very common in speech.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-009",
+    "unit": 10,
+    "gu": "હું કાલે આવી શકું છું.",
+    "translit_hi": "हुं काले आवी शकुं छुं.",
+    "en": "I can come tomorrow.",
+    "hi": "मैं कल आ सकता हूँ।",
+    "new_item": "શકું",
+    "new_item_translit": "शकुं",
+    "new_item_meaning": "can (with 'I'; from શકવું)",
+    "new_item_form": "modal, simple present, 1st person singular",
+    "new_tokens": [
+      "શકું"
+    ],
+    "grammar_note": "Stem + -ઈ + શકવું = सकना: આવી શકું છું = आ सकता हूँ.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-010",
+    "unit": 10,
+    "gu": "તમે મને મદદ કરી શકો?",
+    "translit_hi": "तमे मने मदद करी शको?",
+    "en": "Can you help me?",
+    "hi": "क्या आप मेरी मदद कर सकते हैं?",
+    "new_item": "શકો",
+    "new_item_translit": "शको",
+    "new_item_meaning": "can (with તમે)",
+    "new_item_form": "modal, 2nd person plural",
+    "new_tokens": [
+      "શકો"
+    ],
+    "grammar_note": "Gujarati helps \"to me\" (મને મદદ) where Hindi says मेरी मदद.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-011",
+    "unit": 10,
+    "gu": "તે ગુજરાતી બોલી શકે છે.",
+    "translit_hi": "ते गुजराती बोली शके छे.",
+    "en": "She can speak Gujarati.",
+    "hi": "वह गुजराती बोल सकती है।",
+    "new_item": "શકે",
+    "new_item_translit": "शके",
+    "new_item_meaning": "can (he/she)",
+    "new_item_form": "modal, 3rd person",
+    "new_tokens": [
+      "શકે"
+    ],
+    "grammar_note": "No gender again: सकता/सकती are both શકે છે.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-012",
+    "unit": 10,
+    "gu": "મને ચા ગમે છે.",
+    "translit_hi": "मने चा गमे छे.",
+    "en": "I like tea.",
+    "hi": "मुझे चाय पसंद है।",
+    "new_item": "ગમે",
+    "new_item_translit": "गमे",
+    "new_item_meaning": "like (lit. 'pleases'; from ગમવું)",
+    "new_item_form": "experiencer verb, simple present",
+    "new_tokens": [
+      "ગમે"
+    ],
+    "grammar_note": "The liker is in the dative (મને) and the thing liked is the subject — like मुझे पसंद है.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-013",
+    "unit": 10,
+    "gu": "મને પાણી જોઈએ છે.",
+    "translit_hi": "मने पाणी जोईए छे.",
+    "en": "I need water.",
+    "hi": "मुझे पानी चाहिए।",
+    "new_item": "જોઈએ",
+    "new_item_translit": "जोईए",
+    "new_item_meaning": "need, want (Hindi चाहिए)",
+    "new_item_form": "modal",
+    "new_tokens": [
+      "જોઈએ"
+    ],
+    "grammar_note": "મને … જોઈએ છે = मुझे … चाहिए.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-014",
+    "unit": 10,
+    "gu": "તમારે આરામ કરવો જોઈએ.",
+    "translit_hi": "तमारे आराम करवो जोईए.",
+    "en": "You should rest.",
+    "hi": "आपको आराम करना चाहिए।",
+    "new_item": "કરવો",
+    "new_item_translit": "करवो",
+    "new_item_meaning": "to do (infinitive, masculine)",
+    "new_item_form": "infinitive + જોઈએ (should)",
+    "new_tokens": [
+      "કરવો"
+    ],
+    "grammar_note": "Infinitive + જોઈએ = should. આરામ is masculine → કરવો.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-015",
+    "unit": 10,
+    "gu": "હું જમીને આવું છું.",
+    "translit_hi": "हुं जमीने आवुं छुं.",
+    "en": "I'll come after eating.",
+    "hi": "मैं खाना खाकर आता हूँ।",
+    "new_item": "જમીને",
+    "new_item_translit": "जमीने",
+    "new_item_meaning": "having eaten (Hindi खाकर)",
+    "new_item_form": "conjunctive participle -ઈને",
+    "new_tokens": [
+      "જમીને"
+    ],
+    "grammar_note": "-ઈને = Hindi -कर: જમીને = खाना खाकर.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-016",
+    "unit": 10,
+    "gu": "ઘરે જઈને ફોન કરજો.",
+    "translit_hi": "घरे जईने फोन करजो.",
+    "en": "Call once you get home.",
+    "hi": "घर जाकर फ़ोन कीजिएगा।",
+    "new_item": "જઈને",
+    "new_item_translit": "जईने",
+    "new_item_meaning": "having gone (Hindi जाकर)",
+    "new_item_form": "conjunctive participle -ઈને",
+    "new_tokens": [
+      "જઈને"
+    ],
+    "grammar_note": "જઈને = जाकर.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-017",
+    "unit": 10,
+    "gu": "હાથ ધોઈને ખાઓ.",
+    "translit_hi": "हाथ धोईने खाओ.",
+    "en": "Wash your hands and eat.",
+    "hi": "हाथ धोकर खाइए।",
+    "new_item": "ધોઈને",
+    "new_item_translit": "धोईने",
+    "new_item_meaning": "having washed (Hindi धोकर)",
+    "new_item_form": "conjunctive participle -ઈને",
+    "new_tokens": [
+      "ધોઈને"
+    ],
+    "grammar_note": "ધોવું = धोना.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-018",
+    "unit": 10,
+    "gu": "મને ભૂખ લાગી છે.",
+    "translit_hi": "मने भूख लागी छे.",
+    "en": "I'm hungry.",
+    "hi": "मुझे भूख लगी है।",
+    "new_item": "લાગી",
+    "new_item_translit": "लागी",
+    "new_item_meaning": "has struck (feminine; from લાગવું)",
+    "new_item_form": "present perfect, feminine",
+    "new_tokens": [
+      "લાગી"
+    ],
+    "grammar_note": "ભૂખ લાગવી = भूख लगना, word for word.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-019",
+    "unit": 10,
+    "gu": "મને ઠંડી લાગે છે.",
+    "translit_hi": "मने ठंडी लागे छे.",
+    "en": "I feel cold.",
+    "hi": "मुझे ठंड लग रही है।",
+    "new_item": "લાગે",
+    "new_item_translit": "लागे",
+    "new_item_meaning": "feel, seem (from લાગવું)",
+    "new_item_form": "simple present, 3rd person",
+    "new_tokens": [
+      "લાગે"
+    ],
+    "grammar_note": "મને ઠંડી લાગે છે = मुझे ठंड लगती है.",
+    "needs_review": true
+  },
+  {
+    "id": "u10-020",
+    "unit": 10,
+    "gu": "મને લાગે છે કે તે આવશે.",
+    "translit_hi": "मने लागे छे के ते आवशे.",
+    "en": "I think he'll come.",
+    "hi": "मुझे लगता है कि वह आएगा।",
+    "new_item": "કે",
+    "new_item_translit": "के",
+    "new_item_meaning": "that (conjunction; Hindi कि)",
+    "new_item_form": "conjunction",
+    "new_tokens": [
+      "કે"
+    ],
+    "grammar_note": "મને લાગે છે કે … = मुझे लगता है कि …",
+    "needs_review": true
+  },
+  {
+    "id": "u10-021",
+    "unit": 10,
+    "gu": "તમને ગુજરાતી આવડે છે?",
+    "translit_hi": "तमने गुजराती आवडे छे?",
+    "en": "Do you know Gujarati?",
+    "hi": "क्या आपको गुजराती आती है?",
+    "new_item": "આવડે",
+    "new_item_translit": "आवडे",
+    "new_item_meaning": "know how (from આવડવું)",
+    "new_item_form": "experiencer verb, simple present",
+    "new_tokens": [
+      "આવડે"
+    ],
+    "grammar_note": "આવડવું = \"to know (a skill)\", like Hindi आना in मुझे गुजराती आती है.",
+    "needs_review": true
+  }
+]
