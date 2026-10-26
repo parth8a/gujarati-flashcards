@@ -25,11 +25,15 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      # Validates the deck, type-checks and builds. The site is served from
-      # https://<user>.github.io/<repo>/, so the base path follows the repo name.
+      # Ask GitHub Pages where the site is served from (/<repo> for a project
+      # site), so the app's base path stays right even after a repo rename.
+      - id: pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      # Validates the deck, type-checks and builds.
       - run: npm run build
         env:
-          BASE_PATH: /${{ github.event.repository.name }}/
+          BASE_PATH: ${{ steps.pages.outputs.base_path && format('{0}/', steps.pages.outputs.base_path) || format('/{0}/', github.event.repository.name) }}
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:
